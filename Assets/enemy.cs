@@ -49,7 +49,7 @@ public class enemy : MonoBehaviour
         //ShootAtPlayer();
        
     }
-
+    //
     private void OnTriggerEnter(Collider other)
     {
 
