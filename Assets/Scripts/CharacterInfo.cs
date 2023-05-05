@@ -24,7 +24,8 @@ public class CharacterInfo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        jatekoselete.value = HP;
+        HPtext.text = HP.ToString();
 
     }
 

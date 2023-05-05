@@ -31,7 +31,7 @@ public class Pistol : MonoBehaviour
     private void Update()
     {
 
-        if (bullets > 0)//&& !canvas.isActiveAndEnabled
+        if (bullets > 0 && !canvas.isActiveAndEnabled)//
         {
             if (Input.GetKeyDown(KeyCode.Mouse0))
             {
@@ -58,20 +58,20 @@ public class Pistol : MonoBehaviour
 
             if (uj - eredeti > 1)
             {
+                if (Input.GetKeyDown(KeyCode.R))
+                {
 
-                bullets = bulletCount;
-                textUGUI.text = $"{bullets}/{bulletCount.ToString()}";
+                    bullets = bulletCount;
+                    textUGUI.text = $"{bullets}/{bulletCount.ToString()}";
+                }
+                //bullets = bulletCount;
+                //textUGUI.text = $"{bullets}/{bulletCount.ToString()}";
             }
 
 
 
         }
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            
-            bullets = bulletCount;
-            textUGUI.text = $"{bullets}/{bulletCount.ToString()}";
-        }
+       
 
 
 
