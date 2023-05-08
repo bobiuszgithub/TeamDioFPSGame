@@ -17,11 +17,11 @@ public class Pistol : MonoBehaviour
     private Animator animator;
 
     public TextMeshProUGUI textUGUI;
-    private AudioSource soundeffect;
+   // private AudioSource soundeffect;
 
     private void Start()
     {
-        soundeffect = GetComponent<AudioSource>();
+        //soundeffect = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
         bullets = bulletCount;
 
@@ -35,8 +35,8 @@ public class Pistol : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Mouse0))
             {
-                soundeffect.Play();
-                animator.SetTrigger("shoot");
+                //soundeffect.Play();
+                //animator.SetTrigger("shoot");
                 var bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
                 bullet.GetComponent<Rigidbody>().velocity = bulletSpawnPoint.forward * bulletspeed;
                 bullets--;

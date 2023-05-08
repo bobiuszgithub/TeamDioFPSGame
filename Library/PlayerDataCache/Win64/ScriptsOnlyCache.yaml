@@ -9,10 +9,12 @@ ScriptsOnlyBuild:
     - PauseMenu
     - Pistol
     - enemy
-    - gun
     - menu
     - money
+    - potion
+    - swordAttack
     - teleport
+    - weaponChange
     Unity.Postprocessing.Runtime.dll:
     - UnityEngine.Rendering.PostProcessing.AmbientOcclusion
     - UnityEngine.Rendering.PostProcessing.AutoExposure
@@ -176,21 +178,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3300}
     - Class: 114
-      Script: {instanceID: 4090}
+      Script: {instanceID: 4092}
     - Class: 114
-      Script: {instanceID: 4304}
+      Script: {instanceID: 4306}
     - Class: 114
-      Script: {instanceID: 4416}
+      Script: {instanceID: 4418}
     - Class: 114
-      Script: {instanceID: 4692}
+      Script: {instanceID: 4694}
     - Class: 114
-      Script: {instanceID: 5494}
+      Script: {instanceID: 5496}
     - Class: 114
-      Script: {instanceID: 6130}
+      Script: {instanceID: 6132}
     - Class: 114
-      Script: {instanceID: 6286}
+      Script: {instanceID: 6288}
     - Class: 114
-      Script: {instanceID: 6634}
+      Script: {instanceID: 6636}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -255,8 +257,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1600}
     - Class: 114
-      Script: {instanceID: 1684}
-    - Class: 114
       Script: {instanceID: 1914}
     - Class: 114
       Script: {instanceID: 2390}
@@ -275,40 +275,44 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3340}
     - Class: 114
-      Script: {instanceID: 3598}
+      Script: {instanceID: 3466}
     - Class: 114
-      Script: {instanceID: 3796}
+      Script: {instanceID: 3600}
     - Class: 114
-      Script: {instanceID: 4988}
+      Script: {instanceID: 3798}
     - Class: 114
-      Script: {instanceID: 5146}
+      Script: {instanceID: 4990}
     - Class: 114
-      Script: {instanceID: 5400}
+      Script: {instanceID: 5148}
     - Class: 114
-      Script: {instanceID: 5494}
+      Script: {instanceID: 5402}
     - Class: 114
-      Script: {instanceID: 5788}
+      Script: {instanceID: 5496}
     - Class: 114
-      Script: {instanceID: 6130}
+      Script: {instanceID: 5790}
     - Class: 114
-      Script: {instanceID: 6286}
+      Script: {instanceID: 6132}
     - Class: 114
-      Script: {instanceID: 6634}
+      Script: {instanceID: 6288}
     - Class: 114
-      Script: {instanceID: 6758}
+      Script: {instanceID: 6636}
     - Class: 114
-      Script: {instanceID: 6874}
+      Script: {instanceID: 6654}
     - Class: 114
-      Script: {instanceID: 7046}
+      Script: {instanceID: 6762}
     - Class: 114
-      Script: {instanceID: 7766}
+      Script: {instanceID: 6878}
     - Class: 114
-      Script: {instanceID: 7994}
+      Script: {instanceID: 7050}
+    - Class: 114
+      Script: {instanceID: 7770}
+    - Class: 114
+      Script: {instanceID: 7998}
+    - Class: 114
+      Script: {instanceID: 8216}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
-      Script: {instanceID: 0}
-    - Class: 135
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
@@ -655,6 +659,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnScrollMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a7b3d9b4d6a35325188d330bc6d790ff
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: potion
   - hash:
       serializedVersion: 2
       Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
@@ -1167,6 +1177,12 @@ ScriptsOnlyBuild:
     className: Scrollbar
   - hash:
       serializedVersion: 2
+      Hash: e9539b36af987b1fc4d5169f5d2f3d29
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: swordAttack
+  - hash:
+      serializedVersion: 2
       Hash: 5dea360fb0b147724ac344e6f399c2f3
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -1431,6 +1447,12 @@ ScriptsOnlyBuild:
     className: UnityOnMouseUpMessageListener
   - hash:
       serializedVersion: 2
+      Hash: cf2075d333758da8deac7d71a787f4d8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: weaponChange
+  - hash:
+      serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -1487,5 +1509,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/startGame.unity
-  playerPath: C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre
-    Adventure.exe
+  playerPath: C:/Users/csaki/Desktop/dio/build/Dio's Bizarre Adventure.exe

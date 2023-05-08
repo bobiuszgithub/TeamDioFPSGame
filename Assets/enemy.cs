@@ -45,6 +45,7 @@ public class enemy : MonoBehaviour
         if (EnemyHp <= 0)
         {
             Destroy(gameObject);
+            
         }
         //ShootAtPlayer();
        
