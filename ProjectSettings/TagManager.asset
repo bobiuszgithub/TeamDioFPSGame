@@ -9,6 +9,9 @@ TagManager:
   - Bullet
   - EnemyBody
   - Weapon
+  - ShotgunBullet
+  - Sword
+  - PistolBullet
   layers:
   - Default
   - TransparentFX

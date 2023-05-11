@@ -34,7 +34,7 @@ public class Map5 : MonoBehaviour
             if (elsoAlkalom)
             {
                 elsoAlkalom = false;
-                Invoke(nameof(Inditas), 15);
+                Invoke(nameof(Inditas), 6);
             }
         }
 

@@ -14,24 +14,28 @@ public class enemy : MonoBehaviour
     public GameObject PlayerInfo;
     private CharacterInfo info;
     [SerializeField] private float timer = 5;
-   // private float bulletTime;
 
-    //public GameObject enemyBullet;
-    //public Transform spawnPoint;
     public float enemySpeed;
-    // Start is called before the first frame update
+
 
     public bool PlayerinSight;
 
-
     public Slider ENEMYHPUI;
+
+   
 
     void Start()
     {
+       
+
         PlayerinSight = false;
         info = PlayerInfo.GetComponent<CharacterInfo>();
         ENEMYHPUI.maxValue = EnemyHp;
         ENEMYHPUI.value = EnemyHp;
+
+       
+
+
     }
 
     // Update is called once per frame
@@ -44,19 +48,28 @@ public class enemy : MonoBehaviour
         
         if (EnemyHp <= 0)
         {
-            Destroy(gameObject);
-            
+            Destroy(gameObject);     
         }
-        //ShootAtPlayer();
+      
        
     }
-    //
+    
     private void OnTriggerEnter(Collider other)
     {
 
-        if (other.gameObject.tag == "Bullet")
+        if (other.gameObject.tag == "Sword")
         {
-            EnemyHp = EnemyHp - 15;
+            EnemyHp = EnemyHp - 20;
+            ENEMYHPUI.value = EnemyHp;
+        }
+        if (other.gameObject.tag == "PistolBullet")
+        {
+            EnemyHp = EnemyHp - 25;
+            ENEMYHPUI.value = EnemyHp;
+        }
+        if (other.gameObject.tag == "ShotgunBullet")
+        {
+            EnemyHp = EnemyHp - 35;
             ENEMYHPUI.value = EnemyHp;
         }
         if (other.gameObject.tag == "Player")
@@ -66,32 +79,6 @@ public class enemy : MonoBehaviour
             info.HPtext.text = info.HP.ToString();
         }
     }
-    //private void OnCollisionEnter(Collision collision)
-    //{
-        
-
-    //}
- 
-
-    //void ShootAtPlayer()
-    //{
-    //    bulletTime = bulletTime-Time.deltaTime;
-    //    if (bulletTime > 0) return;
-    //    bulletTime = timer;
-
-    //    GameObject bulletObj = Instantiate(enemyBullet, spawnPoint.transform.position, spawnPoint.transform.rotation) as GameObject;
-    //    Rigidbody bulletRig = bulletObj.GetComponent<Rigidbody>();
-    //    bulletRig.AddForce(bulletRig.transform.forward * enemySpeed);
-    //    Destroy(bulletObj, 5f);
-    //}
-
-    //private void OnTriggerEnter(Collider other)
-    //{
-    //    if (other.gameObject.tag == "Player")
-    //    {
-    //        Destroy(bulledObj);
-    //    }
-    //}
-
+  
 
 }

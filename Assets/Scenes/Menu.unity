@@ -4394,9 +4394,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Credits:\n\nCsal\xE1di Bence: \nWeapon models, animations, coding, Monster
-    models\n\nCs\xE1ki M\xE1rk B\xE1lint: \nMap design, coding\n\nBors Botond \xC1rp\xE1d:\nCoding,
-    movement system"
+  m_text: "Credits:\n\nCsal\xE1di Bence: \nWeapon models, animations, coding, Dog
+    Monsters\n\nCs\xE1ki M\xE1rk B\xE1lint: \nMap design, coding, Turtle monster\n\nBors
+    Botond \xC1rp\xE1d:\nnothing"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
