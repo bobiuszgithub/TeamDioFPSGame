@@ -11,6 +11,11 @@ public class Pistol : MonoBehaviour
     public float timeRemaining = 10;
 
     private int bullets;
+    public GameObject shellRotation;
+
+    public Canvas MuzzleFlash;
+
+
 
     private DateTime lockTime;
     public Canvas canvas;
@@ -25,19 +30,27 @@ public class Pistol : MonoBehaviour
         animator = GetComponent<Animator>();
         bullets = bulletCount;
 
+        MuzzleFlash.enabled = false;
+
         textUGUI.text = $"{bullets}/{bulletCount.ToString()}";
 
     }
     private void Update()
     {
 
+        if (!animator.GetCurrentAnimatorStateInfo(0).IsName("shootPistol"))
+        {
+            MuzzleFlash.enabled = false;
+        }
+
+
         if (bullets > 0 && !canvas.isActiveAndEnabled)//
         {
             if (Input.GetKeyDown(KeyCode.Mouse0))
             {
-                //soundeffect.Play();
-                //animator.SetTrigger("shoot");
-                var bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
+                MuzzleFlash.enabled = true;
+                animator.SetTrigger("Shoot");
+                var bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, shellRotation.transform.rotation);
                 bullet.GetComponent<Rigidbody>().velocity = bulletSpawnPoint.forward * bulletspeed;
                 bullets--;
                 textUGUI.text = $"{bullets}/{bulletCount.ToString()}";
@@ -60,7 +73,8 @@ public class Pistol : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.R))
                 {
-
+                    MuzzleFlash.enabled = false;
+                    animator.SetTrigger("Reload");
                     bullets = bulletCount;
                     textUGUI.text = $"{bullets}/{bulletCount.ToString()}";
                 }

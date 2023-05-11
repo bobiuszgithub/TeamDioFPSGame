@@ -56,7 +56,7 @@ public class enemy : MonoBehaviour
 
         if (other.gameObject.tag == "Bullet")
         {
-            EnemyHp = EnemyHp - 1;
+            EnemyHp = EnemyHp - 15;
             ENEMYHPUI.value = EnemyHp;
         }
         if (other.gameObject.tag == "Player")

@@ -7,6 +7,11 @@ public class Shotgun : MonoBehaviour
     public Transform bulletSpawnPoint;
     public Transform bulletSpawnPoint2;
 
+    public GameObject shellRotation;
+
+
+
+    public Canvas MuzzleFlash;
 
     public GameObject bulletPrefab;
 
@@ -29,6 +34,7 @@ public class Shotgun : MonoBehaviour
        // soundeffect = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
         bullets = bulletCount;
+        MuzzleFlash.enabled = false;
 
         textUGUI.text = $"{bullets}/{bulletCount.ToString()}";
 
@@ -36,16 +42,25 @@ public class Shotgun : MonoBehaviour
     private void Update()
     {
 
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("shootShotgun"))
+        {
+            MuzzleFlash.enabled = false;
+        }
+
         if (bullets > 0 && !canvas.isActiveAndEnabled)//
         {
             if (Input.GetKeyDown(KeyCode.Mouse0))
             {
                 //soundeffect.Play();
-               
-                var bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
+
+                MuzzleFlash.enabled = true;
+                animator.SetTrigger("shootShotgun");
+
+            
+                var bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, shellRotation.transform.rotation);
                 bullet.GetComponent<Rigidbody>().velocity = bulletSpawnPoint.forward * bulletspeed;
 
-                var bullet2 = Instantiate(bulletPrefab, bulletSpawnPoint2.position, bulletSpawnPoint2.rotation);
+                var bullet2 = Instantiate(bulletPrefab, bulletSpawnPoint2.position, shellRotation.transform.rotation);
                 bullet2.GetComponent<Rigidbody>().velocity = bulletSpawnPoint2.forward * bulletspeed;
 
 
@@ -57,7 +72,7 @@ public class Shotgun : MonoBehaviour
                     lockTime = DateTime.Now;
                 }
             }
-
+            
 
         }
         else
@@ -69,8 +84,10 @@ public class Shotgun : MonoBehaviour
 
             if (uj - eredeti > 1)
             {
+
                 if (Input.GetKeyDown(KeyCode.R))
                 {
+                    MuzzleFlash.enabled = false;
                     animator.SetTrigger("Sreload");
                     bullets = bulletCount;
                     textUGUI.text = $"{bullets}/{bulletCount.ToString()}";
@@ -82,7 +99,7 @@ public class Shotgun : MonoBehaviour
 
 
         }
-       
+     
 
 
 

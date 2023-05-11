@@ -26,8 +26,9 @@ public class teleport : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Player" || other.gameObject.tag == "Bullet")
+        if (other.gameObject.tag == "Weapon")
         {
+            
             characterController.enabled = false;
             player.transform.position = portal2.transform.position;
             characterController.enabled = true;
