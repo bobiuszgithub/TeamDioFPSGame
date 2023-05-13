@@ -1,13 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 
 public class PuzzleScript : MonoBehaviour
 {
     public GameObject platform;
-
-    public TextMeshProUGUI textUGUI;
 
     void Start()
     {
@@ -25,7 +22,7 @@ public class PuzzleScript : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            textUGUI.text = "";
+
             Destroy(gameObject);
         }
        
