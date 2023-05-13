@@ -42,7 +42,6 @@ public class Map5 : MonoBehaviour
 
     private void Inditas()
     {
-        Debug.Log("alma");
         enemy.transform.position = teleport.transform.position;
         mozgas.enabled = true;
         EnemyInfo.PlayerinSight = true;

@@ -28,4 +28,6 @@ public class tutorialbook : MonoBehaviour
             OpenedBook.SetActive(true);
         }
     }
+
+ 
 }

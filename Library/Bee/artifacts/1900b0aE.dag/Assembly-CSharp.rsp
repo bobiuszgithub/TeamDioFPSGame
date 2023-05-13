@@ -361,6 +361,7 @@
 "Assets/MenuScripts/menu.cs"
 "Assets/MenuScripts/money.cs"
 "Assets/MenuScripts/PauseMenu.cs"
+"Assets/PoisonScript.cs"
 "Assets/potion.cs"
 "Assets/PuzzleScript.cs"
 "Assets/Scripts/CharacterInfo.cs"
