@@ -3,16 +3,11 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - Bullet
     - CharacterInfo
-    - DoorOpening
-    - EDoor
     - EnemySighting
     - GameOver
-    - Map5
     - Movement
     - PauseMenu
     - Pistol
-    - PuzzleScript
-    - Shotgun
     - enemy
     - menu
     - money
@@ -191,13 +186,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4694}
     - Class: 114
-      Script: {instanceID: 5500}
+      Script: {instanceID: 5496}
     - Class: 114
-      Script: {instanceID: 6138}
+      Script: {instanceID: 6132}
     - Class: 114
-      Script: {instanceID: 6294}
+      Script: {instanceID: 6288}
     - Class: 114
-      Script: {instanceID: 6644}
+      Script: {instanceID: 6636}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -245,6 +240,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 91
@@ -282,50 +281,38 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3798}
     - Class: 114
-      Script: {instanceID: 4992}
+      Script: {instanceID: 4990}
     - Class: 114
-      Script: {instanceID: 5150}
+      Script: {instanceID: 5148}
     - Class: 114
-      Script: {instanceID: 5234}
+      Script: {instanceID: 5402}
     - Class: 114
-      Script: {instanceID: 5406}
+      Script: {instanceID: 5496}
     - Class: 114
-      Script: {instanceID: 5500}
+      Script: {instanceID: 5790}
     - Class: 114
-      Script: {instanceID: 5794}
+      Script: {instanceID: 6132}
     - Class: 114
-      Script: {instanceID: 5944}
+      Script: {instanceID: 6288}
     - Class: 114
-      Script: {instanceID: 6138}
+      Script: {instanceID: 6636}
     - Class: 114
-      Script: {instanceID: 6294}
+      Script: {instanceID: 6654}
     - Class: 114
-      Script: {instanceID: 6588}
+      Script: {instanceID: 6762}
     - Class: 114
-      Script: {instanceID: 6644}
+      Script: {instanceID: 6878}
     - Class: 114
-      Script: {instanceID: 6662}
+      Script: {instanceID: 7050}
     - Class: 114
-      Script: {instanceID: 6770}
+      Script: {instanceID: 7770}
     - Class: 114
-      Script: {instanceID: 6886}
+      Script: {instanceID: 7998}
     - Class: 114
-      Script: {instanceID: 7058}
-    - Class: 114
-      Script: {instanceID: 7778}
-    - Class: 114
-      Script: {instanceID: 8006}
-    - Class: 114
-      Script: {instanceID: 8224}
-    - Class: 114
-      Script: {instanceID: 8402}
-    - Class: 114
-      Script: {instanceID: 8408}
+      Script: {instanceID: 8216}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
-      Script: {instanceID: 0}
-    - Class: 135
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
@@ -416,7 +403,7 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionStayMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 5153ab8786e170b1b0eed4ff00da7f77
+      Hash: 360f7cc240bfcbaa83599c8298e526dc
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Pistol
@@ -932,12 +919,6 @@ ScriptsOnlyBuild:
     className: ScreenSpaceReflections
   - hash:
       serializedVersion: 2
-      Hash: 13db956a8f542f802d2e519eb615f351
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SMG
-  - hash:
-      serializedVersion: 2
       Hash: 11319334e5365797f8056694f9b5dae4
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
@@ -1014,12 +995,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnBeginDragMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: d93801db42dda4f116b2832472df6cb3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: EDoor
   - hash:
       serializedVersion: 2
       Hash: 5ab533713adae59372fb3e10a585c186
@@ -1136,12 +1111,6 @@ ScriptsOnlyBuild:
     className: CharacterInfo
   - hash:
       serializedVersion: 2
-      Hash: 592e6615c04a59d212756c27fd25eb20
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Map5
-  - hash:
-      serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
     assemblyName: Unity.VisualScripting.State.dll
     namespaceName: Unity.VisualScripting
@@ -1194,12 +1163,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
     className: Benchmark03
-  - hash:
-      serializedVersion: 2
-      Hash: 53f32f83c4a633f7d461d95304414788
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DoorOpening
   - hash:
       serializedVersion: 2
       Hash: 748dd2a2a28da4e618912da5ac45684b
@@ -1508,18 +1471,6 @@ ScriptsOnlyBuild:
     className: VertexZoom
   - hash:
       serializedVersion: 2
-      Hash: 8b70377f50ca346c2220db2b3ed1a706
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PuzzleScript
-  - hash:
-      serializedVersion: 2
-      Hash: 84cd401ca1f9e4cadb9907e3a5ef700c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Shotgun
-  - hash:
-      serializedVersion: 2
       Hash: 8220b46879dc5e37db1b940c938f5744
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1558,4 +1509,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/startGame.unity
-  playerPath: C:/Users/Mark/Downloads/Jo/build/The Dungeon of Madness.exe
+  playerPath: C:/Users/csaki/Desktop/dio/build/Dio's Bizarre Adventure.exe
