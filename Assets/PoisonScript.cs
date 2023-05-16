@@ -6,7 +6,7 @@ public class PoisonScript : MonoBehaviour
 
     private CharacterInfo characterInfo;
     float Timer = .0f;
-    float TimeToDamage = 2.0f;
+    float TimeToDamage = 3.0f;
 
     bool PoisonTouched = false;
 
@@ -37,7 +37,6 @@ public class PoisonScript : MonoBehaviour
         {
 
             PoisonTouched = true;
-            //InvokeRepeating(nameof(PlayerDamage), 0.5f, 300);
 
         }
 
@@ -45,10 +44,8 @@ public class PoisonScript : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        Debug.Log("exit");
         if (other.gameObject.tag == "Player")
         {
-            Debug.Log("exit");
             PoisonTouched = false;
 
         }

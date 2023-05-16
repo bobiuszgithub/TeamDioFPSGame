@@ -1,8 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
-using UnityEditor.Timeline;
-using UnityEditor.UI;
 using UnityEngine;
 
 public class Turret : MonoBehaviour

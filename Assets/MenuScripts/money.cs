@@ -34,7 +34,7 @@ public class money : MonoBehaviour
         {
           
             charinfo.Money = charinfo.Money + 10;
-            MoneyGui.text = "Gold: " + charinfo.Money.ToString();
+            MoneyGui.text = "Kreditek: " + charinfo.Money.ToString();
             Destroy(gameObject);
         }
     }
