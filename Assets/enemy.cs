@@ -72,12 +72,18 @@ public class enemy : MonoBehaviour
             EnemyHp = EnemyHp - 35;
             ENEMYHPUI.value = EnemyHp;
         }
+        if (other.gameObject.tag == "Explosion")
+        {
+            EnemyHp = EnemyHp - 100;
+            ENEMYHPUI.value = EnemyHp;
+        }
         if (other.gameObject.tag == "Player")
         {
             info.HP = info.HP - 10;
             info.jatekoselete.value = info.HP;
             info.HPtext.text = info.HP.ToString();
         }
+        
     }
   
 

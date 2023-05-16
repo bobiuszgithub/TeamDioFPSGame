@@ -10,7 +10,12 @@ public class Map5 : MonoBehaviour
     private NavMeshAgent mozgas;
 
     private enemy EnemyInfo;
-    private bool elsoAlkalom;
+    private bool StartCountDown;
+    private bool elsoalkalom;
+
+    float Timer = .0f;
+    float TimeToDamage = 5.0f;
+
 
     void Start()
     {
@@ -18,32 +23,36 @@ public class Map5 : MonoBehaviour
         mozgas = enemy.GetComponent<NavMeshAgent>();
         mozgas.enabled = false;
 
-        elsoAlkalom = true;
+        StartCountDown = false;
+        elsoalkalom = true;
 
     }
 
 
     void Update()
     {
+        if (StartCountDown)
+        {
+            Timer += 1 * Time.deltaTime;
+        }
+      
+        if (Timer >= TimeToDamage && elsoalkalom)
+        {
+            enemy.transform.position = teleport.transform.position;
+            mozgas.enabled = true;
+            EnemyInfo.PlayerinSight = true;
+            elsoalkalom = false;
+        }
 
     }
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
         {
-            if (elsoAlkalom)
-            {
-                elsoAlkalom = false;
-                Invoke(nameof(Inditas), 6);
-            }
+            StartCountDown = true;
         }
 
     }
 
-    private void Inditas()
-    {
-        enemy.transform.position = teleport.transform.position;
-        mozgas.enabled = true;
-        EnemyInfo.PlayerinSight = true;
-    }
+    
 }
