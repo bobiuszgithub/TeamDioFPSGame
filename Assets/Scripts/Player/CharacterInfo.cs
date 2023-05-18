@@ -17,7 +17,7 @@ public class CharacterInfo : MonoBehaviour
     void Start()
     {
         jatekoselete.value = HP;
-        MoneyGui.text = "Gold: " + Money.ToString();
+        MoneyGui.text = "Kreditek: " + Money.ToString();
         HPtext.text = HP.ToString();
     }
 
@@ -36,7 +36,7 @@ public class CharacterInfo : MonoBehaviour
             Money = Money + 10;
            
             Debug.Log(jatekoselete.value);
-            MoneyGui.text = "Gold: "+Money.ToString();
+            MoneyGui.text = "Kreditek: "+Money.ToString();
             Destroy(collision.gameObject);
         }
         if (collision.gameObject.tag == "Enemy")

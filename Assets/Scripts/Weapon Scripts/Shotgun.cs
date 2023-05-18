@@ -41,7 +41,7 @@ public class Shotgun : MonoBehaviour
     }
     private void Update()
     {
-
+        textUGUI.text = $"{bullets}/{bulletCount.ToString()}";
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("shootShotgun"))
         {
             MuzzleFlash.enabled = false;

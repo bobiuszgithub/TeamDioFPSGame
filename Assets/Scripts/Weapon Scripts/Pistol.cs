@@ -37,6 +37,7 @@ public class Pistol : MonoBehaviour
     }
     private void Update()
     {
+        textUGUI.text = $"{bullets}/{bulletCount.ToString()}";
 
         if (!animator.GetCurrentAnimatorStateInfo(0).IsName("shootPistol"))
         {

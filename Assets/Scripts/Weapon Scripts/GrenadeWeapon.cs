@@ -37,7 +37,7 @@ public class GrenadeWeapon : MonoBehaviour
     private void Update()
     {
 
-      
+        textUGUI.text = $"{bullets}/{bulletCount.ToString()}";
 
         if (bullets > 0 && !canvas.isActiveAndEnabled)//
         {

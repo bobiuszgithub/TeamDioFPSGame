@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class swordAttack : MonoBehaviour
@@ -9,6 +10,9 @@ public class swordAttack : MonoBehaviour
     public Canvas canvas;
     private Animator animator;
     private DateTime lockTime;
+
+    public TextMeshProUGUI textUGUI;
+    
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -17,7 +21,7 @@ public class swordAttack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        textUGUI.text = " ";
         if (Input.GetKeyDown(KeyCode.Mouse0) && !canvas.isActiveAndEnabled)
         {
      

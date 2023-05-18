@@ -17,17 +17,7 @@ public class money : MonoBehaviour
         
     }
 
-    //private void OnCollisionEnter(Collision collision)
-    //{
-       
-    //    if (collision.gameObject.name == "Player")
-    //    {
-    //        Debug.Log("valami t?rt?nt");
-    //        charinfo.Money = charinfo.Money + 10;         
-    //        MoneyGui.text = "Gold: " + charinfo.Money.ToString();
-    //        Destroy(this);
-    //    }
-    //}
+   
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")

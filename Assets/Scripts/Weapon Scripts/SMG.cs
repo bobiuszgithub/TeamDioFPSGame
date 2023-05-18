@@ -1,4 +1,3 @@
-using System;
 using TMPro;
 using UnityEngine;
 
@@ -13,12 +12,25 @@ public class SMG : MonoBehaviour
     private int bullets;
     public GameObject shellRotation;
 
-    private DateTime lockTime;
+    private bool shooting = false;
+
+
     public Canvas canvas;
     private Animator animator;
 
     public TextMeshProUGUI textUGUI;
     // private AudioSource soundeffect;
+
+
+
+
+    float Timer = .0f;
+    float TimeToDamage = 0.2f;
+
+    float ReloadTimer = .0f;
+    float ReloadTime = 1f;
+    private bool Reload = false;
+
 
     private void Start()
     {
@@ -26,69 +38,67 @@ public class SMG : MonoBehaviour
         animator = GetComponent<Animator>();
         bullets = bulletCount;
 
-        textUGUI.text = $"{bullets}/{bulletCount.ToString()}";
+        textUGUI.text = $"{bullets}/{bulletCount}";
 
 
     }
 
     private void Update()
     {
+        textUGUI.text = $"{bullets}/{bulletCount}";
 
 
-        if (bullets > 0 && !canvas.isActiveAndEnabled)//
+
+        if (Input.GetButtonDown("Fire1") && bullets > 0 && !canvas.isActiveAndEnabled)
         {
 
-            if (Input.GetButtonDown("Fire1"))
-            {
-
-                while (bullets > 0)
-                {
-
-                    var bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, shellRotation.transform.rotation);
-                    bullet.GetComponent<Rigidbody>().velocity = bulletSpawnPoint.forward * bulletspeed;
-                    bullets--;
-                    textUGUI.text = $"{bullets}/{bulletCount.ToString()}";
-                    if (bullets == 0)
-                    {
-                        lockTime = DateTime.Now;
-                    }
-
-
-
-                }
-                //soundeffect.Play();
-                //animator.SetTrigger("shoot");
-
-            }
-
+            shooting = true;
 
         }
-        else
+        if (Input.GetButtonUp("Fire1"))
         {
-            DateTime most = DateTime.Now;
-            int eredeti = lockTime.Second + lockTime.Minute * 60 + lockTime.Hour * 3600;
-            int uj = most.Second + most.Minute * 60 + most.Hour * 3600;
+            shooting = false;
+        }
 
+        if (bullets <= 0)
+        {
+            shooting = false;
+        }
 
-            if (uj - eredeti > 1)
+        if (shooting)
+        {
+            Timer += 1 * Time.deltaTime;
+            if (Timer >= TimeToDamage)
             {
-                if (Input.GetKeyDown(KeyCode.R))
-                {
-
-                    bullets = bulletCount;
-                    textUGUI.text = $"{bullets}/{bulletCount.ToString()}";
-                }
-                //bullets = bulletCount;
-                //textUGUI.text = $"{bullets}/{bulletCount.ToString()}";
+                var bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, shellRotation.transform.rotation);
+                bullet.GetComponent<Rigidbody>().velocity = bulletSpawnPoint.forward * bulletspeed;
+                bullets--;
+                textUGUI.text = $"{bullets}/{bulletCount}";
+                Timer = .0f;
             }
 
 
 
         }
 
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            Reload = true;
+        }
 
+        if (Reload)
+        {
+            ReloadTimer += 1 * Time.deltaTime;
+            if (ReloadTimer >= ReloadTime)
+            {
+                bullets = bulletCount;
+                textUGUI.text = $"{bullets}/{bulletCount.ToString()}";
+                Reload = false;
+                ReloadTimer = .0f;
+            }
+        }
 
-
+    
 
 
 
