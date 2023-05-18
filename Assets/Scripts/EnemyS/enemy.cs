@@ -67,6 +67,11 @@ public class enemy : MonoBehaviour
             EnemyHp = EnemyHp - 25;
             ENEMYHPUI.value = EnemyHp;
         }
+        if (other.gameObject.tag == "SMGBullet")
+        {
+            EnemyHp = EnemyHp - 30;
+            ENEMYHPUI.value = EnemyHp;
+        }
         if (other.gameObject.tag == "ShotgunBullet")
         {
             EnemyHp = EnemyHp - 35;

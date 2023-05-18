@@ -15,6 +15,8 @@ public class SMG : MonoBehaviour
     private bool shooting = false;
 
 
+    public Canvas MuzzleFlash;
+
     public Canvas canvas;
     private Animator animator;
 
@@ -35,9 +37,10 @@ public class SMG : MonoBehaviour
     private void Start()
     {
         //soundeffect = GetComponent<AudioSource>();
+
         animator = GetComponent<Animator>();
         bullets = bulletCount;
-
+        MuzzleFlash.enabled = false;
         textUGUI.text = $"{bullets}/{bulletCount}";
 
 
@@ -58,11 +61,13 @@ public class SMG : MonoBehaviour
         if (Input.GetButtonUp("Fire1"))
         {
             shooting = false;
+            MuzzleFlash.enabled = false;
         }
 
         if (bullets <= 0)
         {
             shooting = false;
+            MuzzleFlash.enabled = false;
         }
 
         if (shooting)
@@ -70,14 +75,14 @@ public class SMG : MonoBehaviour
             Timer += 1 * Time.deltaTime;
             if (Timer >= TimeToDamage)
             {
+                MuzzleFlash.enabled = true;
                 var bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, shellRotation.transform.rotation);
                 bullet.GetComponent<Rigidbody>().velocity = bulletSpawnPoint.forward * bulletspeed;
                 bullets--;
                 textUGUI.text = $"{bullets}/{bulletCount}";
                 Timer = .0f;
+  
             }
-
-
 
         }
 
@@ -88,6 +93,7 @@ public class SMG : MonoBehaviour
 
         if (Reload)
         {
+            MuzzleFlash.enabled = false;
             ReloadTimer += 1 * Time.deltaTime;
             if (ReloadTimer >= ReloadTime)
             {

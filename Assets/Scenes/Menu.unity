@@ -2721,9 +2721,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Credits:\n\nCsal\xE1di Bence: \nWeapon and item models, animations, coding,
-    Dog Monsters\n\nCs\xE1ki M\xE1rk B\xE1lint: \nMap design, coding, Turtle monster\n\nBors
-    Botond \xC1rp\xE1d:\nnothing"
+  m_text: "Credits:\n\nCsal\xE1di Bence: \nFegyver \xE9s t\xE1rgy modellek, anim\xE1ci\xF3k,
+    k\xF3dok, kutya sz\xF6rny\n\nCs\xE1ki M\xE1rk B\xE1lint: \nP\xE1lya Diz\xE1jn, 
+    K\xF3dok, Tekn\u0151s sz\xF6rny\n\nBors Botond \xC1rp\xE1d:\nSemmi"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2786,7 +2786,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 8.417969, z: -463.53125, w: -252.50537}
+  m_margin: {x: 0, y: 8.417969, z: -586.8454, w: -249.01013}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
