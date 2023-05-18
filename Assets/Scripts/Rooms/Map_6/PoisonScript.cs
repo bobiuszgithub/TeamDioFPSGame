@@ -24,7 +24,7 @@ public class PoisonScript : MonoBehaviour
             if (Timer >= TimeToDamage)
             {
                 PlayerDamage();
-                TimeToDamage += 2.0F;
+
             }
         }
 
@@ -36,6 +36,8 @@ public class PoisonScript : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
 
+            var hp = characterInfo.HP;
+            characterInfo.HP = hp;
             PoisonTouched = true;
 
         }
@@ -46,15 +48,17 @@ public class PoisonScript : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
+
             PoisonTouched = false;
 
         }
     }
 
-    
+
 
     private void PlayerDamage()
     {
         characterInfo.HP -= 5F;
+        Timer = .0f;
     }
 }
