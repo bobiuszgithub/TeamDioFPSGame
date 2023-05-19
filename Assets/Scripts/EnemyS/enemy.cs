@@ -1,8 +1,5 @@
-using System.Diagnostics;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
-using UnityEngine.TextCore.Text;
 using UnityEngine.UI;
 
 public class enemy : MonoBehaviour
@@ -22,18 +19,21 @@ public class enemy : MonoBehaviour
 
     public Slider ENEMYHPUI;
 
+
    
+    public GameObject drop;
+
 
     void Start()
     {
-       
+
 
         PlayerinSight = false;
         info = PlayerInfo.GetComponent<CharacterInfo>();
         ENEMYHPUI.maxValue = EnemyHp;
         ENEMYHPUI.value = EnemyHp;
 
-       
+
 
 
     }
@@ -45,15 +45,23 @@ public class enemy : MonoBehaviour
         {
             Enemy.SetDestination(player.position);
         }
-        
+
+
+
+
         if (EnemyHp <= 0)
         {
-            Destroy(gameObject);     
+
+            if (drop != null)
+            {
+                Instantiate(drop, this.transform.position, this.transform.rotation);
+            }
+            Destroy(gameObject);
         }
-      
-       
+
+
     }
-    
+
     private void OnTriggerEnter(Collider other)
     {
 
@@ -88,8 +96,8 @@ public class enemy : MonoBehaviour
             info.jatekoselete.value = info.HP;
             info.HPtext.text = info.HP.ToString();
         }
-        
+
     }
-  
+
 
 }

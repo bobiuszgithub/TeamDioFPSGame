@@ -43,6 +43,8 @@ public class SMG : MonoBehaviour
         MuzzleFlash.enabled = false;
         textUGUI.text = $"{bullets}/{bulletCount}";
 
+        shooting = false;
+
 
     }
 
