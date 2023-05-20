@@ -366,6 +366,7 @@
 "Assets/Scripts/Rooms/Map_5/Map5.cs"
 "Assets/Scripts/Rooms/Map_6/PoisonScript.cs"
 "Assets/Scripts/Spawn/tutorialbook.cs"
+"Assets/Scripts/Targyak/keys.cs"
 "Assets/Scripts/Targyak/potion.cs"
 "Assets/Scripts/teleport.cs"
 "Assets/Scripts/Weapon Scripts/Bullet.cs"

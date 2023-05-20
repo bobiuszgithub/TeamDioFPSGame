@@ -14,11 +14,17 @@ public class CharacterInfo : MonoBehaviour
     public TextMeshProUGUI MoneyGui;
     public TextMeshProUGUI HPtext;
     public Slider jatekoselete;
+
+    public bool keyS;
+    public bool keyK;
+    public bool keyZ;
+
     void Start()
     {
         jatekoselete.value = HP;
         MoneyGui.text = "Kreditek: " + Money.ToString();
         HPtext.text = HP.ToString();
+        keyS=false; keyK=false; keyZ=false;
     }
 
     // Update is called once per frame
@@ -29,26 +35,28 @@ public class CharacterInfo : MonoBehaviour
 
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.tag == "Money")
-        {
-            Money = Money + 10;
-           
-            Debug.Log(jatekoselete.value);
-            MoneyGui.text = "Kreditek: "+Money.ToString();
-            Destroy(collision.gameObject);
-        }
-        if (collision.gameObject.tag == "Enemy")
-        {
-            HP = HP - 10;
-            jatekoselete.value = HP; 
-            HPtext.text = HP.ToString();
+    //private void OnCollisionEnter(Collision collision)
+    //{
+        //if (collision.gameObject.tag == "Money")
+        //{
+        //    Money = Money + 10;
 
-        }
+        //    Debug.Log(jatekoselete.value);
+        //    MoneyGui.text = "Kreditek: " + Money.ToString();
+        //    Destroy(collision.gameObject);
+        //}
+        //if (collision.gameObject.tag == "Enemy")
+        //{
+        //    HP = HP - 10;
+        //    jatekoselete.value = HP;
+        //    HPtext.text = HP.ToString();
+
+        //}
+
+       
 
 
-    }
+    //}
 
 
 }
