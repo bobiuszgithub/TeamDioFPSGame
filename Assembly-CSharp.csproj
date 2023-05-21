@@ -53,7 +53,7 @@
     <UnityVersion>2021.3.5f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Weapon Scripts\gun.cs" />
@@ -123,6 +123,8 @@
     <Compile Include="Assets\Scripts\Rooms\Map_3\PuzzleScript.cs" />
     <Compile Include="Assets\Scripts\Weapon Scripts\Shotgun.cs" />
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+    <Compile Include="Assets\Scripts\Weapon Scripts\rocketLauncher.cs" />
+    <Compile Include="Assets\rocket.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\zNem aktualis\TextMesh Pro\Shaders\TMPro.cginc" />

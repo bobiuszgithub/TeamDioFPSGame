@@ -7,7 +7,8 @@ public class weaponChange : MonoBehaviour
     public GameObject Pistol;
     public GameObject CM9;
     public GameObject Shotgun;
-    public GameObject MagicBall;
+    public GameObject Grenade;
+    public GameObject RocketLauncher;
 
 
 
@@ -24,7 +25,8 @@ public class weaponChange : MonoBehaviour
         Pistol.SetActive(false);
         CM9.SetActive(false);
         Shotgun.SetActive(false);
-        MagicBall.SetActive(false);
+        Grenade.SetActive(false);
+        RocketLauncher.SetActive(false);
     }
 
     // Update is called once per frame
@@ -35,7 +37,7 @@ public class weaponChange : MonoBehaviour
             if (Input.GetAxis("Mouse ScrollWheel") > 0)
             {
                 weapon++;
-                if (weapon == 5)
+                if (weapon == 6)
                 {
                     weapon = 0;
                 }
@@ -46,7 +48,7 @@ public class weaponChange : MonoBehaviour
                 weapon--;
                 if (weapon == -1)
                 {
-                    weapon = 5;
+                    weapon = 6;
                 }
 
             }
@@ -60,35 +62,48 @@ public class weaponChange : MonoBehaviour
                 Pistol.SetActive(false);
                 CM9.SetActive(false);
                 Shotgun.SetActive(false);
-                MagicBall.SetActive(false);
+                Grenade.SetActive(false);
+                RocketLauncher.SetActive(false);
                 break;
             case 1:
                 Pistol.SetActive(true);
                 Sword.SetActive(false);
                 CM9.SetActive(false);
                 Shotgun.SetActive(false);
-                MagicBall.SetActive(false);
+                Grenade.SetActive(false);
+                RocketLauncher.SetActive(false);
                 break;
             case 2:
                 Sword.SetActive(false);
                 Pistol.SetActive(false);
                 CM9.SetActive(true);
                 Shotgun.SetActive(false);
-                MagicBall.SetActive(false);
+                Grenade.SetActive(false);
+                RocketLauncher.SetActive(false);
                 break;
             case 3:
                 Sword.SetActive(false);
                 Pistol.SetActive(false);
                 CM9.SetActive(false);
                 Shotgun.SetActive(true);
-                MagicBall.SetActive(false);
+                Grenade.SetActive(false);
+                RocketLauncher.SetActive(false);
                 break;
             case 4:
                 Sword.SetActive(false);
                 Pistol.SetActive(false);
                 CM9.SetActive(false);
                 Shotgun.SetActive(false);
-                MagicBall.SetActive(true);
+                Grenade.SetActive(true);
+                RocketLauncher.SetActive(false);
+                break;
+            case 5:
+                Sword.SetActive(false);
+                Pistol.SetActive(false);
+                CM9.SetActive(false);
+                Shotgun.SetActive(false);
+                Grenade.SetActive(false);
+                RocketLauncher.SetActive(true);
                 break;
             default:
                 break;
