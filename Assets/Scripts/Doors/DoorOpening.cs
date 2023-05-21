@@ -12,19 +12,13 @@ public class DoorOpening : MonoBehaviour
 
     private bool animationplayed;
 
-    public Light doorLight;
-
 
     void Start()
     {
    
         animator = GetComponent<Animator>();
         animationplayed = false;
-        if (doorLight != null)
-        {
-            doorLight.enabled = false;
-        }
-        
+       
 
     }
 
@@ -35,10 +29,6 @@ public class DoorOpening : MonoBehaviour
         {
             animator.SetTrigger("OpenDoor");
             animationplayed = true;
-            if (doorLight != null)
-            {
-                doorLight.enabled = true;
-            }
         }
     }
 
