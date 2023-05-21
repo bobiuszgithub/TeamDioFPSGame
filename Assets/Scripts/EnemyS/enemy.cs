@@ -29,7 +29,10 @@ public class enemy : MonoBehaviour
 
 
         PlayerinSight = false;
-        info = PlayerInfo.GetComponent<CharacterInfo>();
+        if (PlayerInfo != null)
+        {
+            info = PlayerInfo.GetComponent<CharacterInfo>();
+        }
         ENEMYHPUI.maxValue = EnemyHp;
         ENEMYHPUI.value = EnemyHp;
 
@@ -92,9 +95,12 @@ public class enemy : MonoBehaviour
         }
         if (other.gameObject.tag == "Player")
         {
-            info.HP = info.HP - 10;
-            info.jatekoselete.value = info.HP;
-            info.HPtext.text = info.HP.ToString();
+            if (info != null)
+            {
+                info.HP = info.HP - 10;
+                info.jatekoselete.value = info.HP;
+                info.HPtext.text = info.HP.ToString();
+            }
         }
 
     }
