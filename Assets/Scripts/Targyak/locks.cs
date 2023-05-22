@@ -20,74 +20,93 @@ public class locks : MonoBehaviour
 
         if (benneAll)
         {
-            if (Input.GetKeyDown("y"))
+            if(Input.GetKeyUp("g"))
             {
                 ellenorzesS();
-
-            }
-            else if (Input.GetKeyDown("b"))
-            {
                 ellenorzesK();
-
-            }
-            else if (Input.GetKeyDown("g"))
-            {
                 ellenorzesZ();
             }
+            
         }
 
     }
     private void ellenorzesZ()
     {
-        if (gameObject.name == "Z_lakat")
+        if (gameObject.name == "Z_lakat" && benneAll)
         {
             if (charinfo.keyZ)
             {
                 Destroy(gameObject);
 
             }
-            else { Debug.Log("Szükséges a zöld kulcs!"); }
-
+            benneAll = false;
         }
-
-        benneAll = false;
     }
 
 
     private void ellenorzesK()
     {
-        if (gameObject.name == "K_lakat")
+        if (gameObject.name == "K_lakat" && benneAll)
         {
             if (charinfo.keyK)
             {
                 Destroy(gameObject);
 
             }
-            else { Debug.Log("Szükséges a kék kulcs!"); }
-
-        }
-        benneAll = false;
+            benneAll = false;
+        } 
     }
 
     private void ellenorzesS()
     {
-        if (gameObject.name == "S_lakat")
+        if (gameObject.name == "S_lakat" && benneAll)
         {
             if (charinfo.keyS)
             {
                 Destroy(gameObject);
 
             }
-            else { Debug.Log("Szükséges a sárga kulcs!"); }
-
+            benneAll = false;
         }
-        benneAll = false;
     }
 
 
     private void OnTriggerEnter(Collider other)
     {
-        benneAll = true;
+        if (other.gameObject.tag == "Player")
+        {
+            if (gameObject.name == "S_lakat")
+            {
+                if (charinfo.keyS)
+                {
+                    Debug.Log("Ajto nyitásához kérem nyomja meg a (g) gombot!");
+                    benneAll = true;
+
+                }
+                else { Debug.Log("Szükséges a sárga kulcs az ajto kinyitásához!"); }
+            }
+           else if (gameObject.name == "K_lakat")
+            {
+                if (charinfo.keyK)
+                {
+                    Debug.Log("Ajto nyitásához kérem nyomja meg a (g) gombot!");
+                    benneAll = true;
+
+                }
+                else { Debug.Log("Szükséges a kék kulcs az ajto kinyitásához!"); }
+            }
+            else if (gameObject.name == "Z_lakat")
+            {
+                if (charinfo.keyZ)
+                {
+                    Debug.Log("Ajto nyitásához kérem nyomja meg a (g) gombot!");
+                    benneAll = true;
+
+                }
+                else { Debug.Log("Szükséges a zöld kulcs az ajto kinyitásához!"); }
+            }
+
+        }
     }
 
     private void OnTriggerExit(Collider other)
