@@ -1,10 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class rocket : MonoBehaviour
 {
     // Start is called before the first frame update
+
+    public GameObject explosion;
 
     private 
     void Start()
@@ -17,10 +21,19 @@ public class rocket : MonoBehaviour
     {
         
     }
-
     private void OnTriggerEnter(Collider other)
     {
-        //Debug.Log("explode");
+        if (other.gameObject.tag == "Enemy")
+        {
+            GameObject.Instantiate(explosion, this.transform.position, Quaternion.identity);
+            Destroy(gameObject);
+        }
+        if (other.gameObject.layer == 3)
+        {
+            GameObject.Instantiate(explosion, this.transform.position, Quaternion.identity);
+            Destroy(gameObject);
+        }
+        
     }
 
 
