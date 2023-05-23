@@ -18,6 +18,6 @@ public class MoveBetweenAandB : MonoBehaviour
 
     void Update()
     {
-        transform.position = Vector3.Lerp(pos1, pos2, Mathf.PingPong(Time.time * speed, 1.0f));
+        transform.position = Vector3.Lerp(pos1, pos2, Mathf.Abs(Mathf.Sin(Time.time * speed)));
     }
 }
