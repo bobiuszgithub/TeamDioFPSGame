@@ -6,6 +6,8 @@ public class locks : MonoBehaviour
 {
     private CharacterInfo charinfo;
     public GameObject player;
+    public GameObject item;
+    
     private bool benneAll;
 
     void Start()
@@ -20,7 +22,7 @@ public class locks : MonoBehaviour
 
         if (benneAll)
         {
-            if(Input.GetKeyUp("g"))
+            if(Input.GetKeyUp("e"))
             {
                 ellenorzesS();
                 ellenorzesK();
@@ -32,10 +34,11 @@ public class locks : MonoBehaviour
     }
     private void ellenorzesZ()
     {
-        if (gameObject.name == "Z_lakat" && benneAll)
+        if (gameObject.name == "zold_lada" && benneAll)
         {
             if (charinfo.keyZ)
             {
+               item.SetActive(true);
                 Destroy(gameObject);
 
             }
@@ -46,10 +49,11 @@ public class locks : MonoBehaviour
 
     private void ellenorzesK()
     {
-        if (gameObject.name == "K_lakat" && benneAll)
+        if (gameObject.name == "kek_lada" && benneAll)
         {
             if (charinfo.keyK)
             {
+                item.SetActive(true);
                 Destroy(gameObject);
 
             }
@@ -70,7 +74,7 @@ public class locks : MonoBehaviour
         }
     }
 
-
+    
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
@@ -79,31 +83,31 @@ public class locks : MonoBehaviour
             {
                 if (charinfo.keyS)
                 {
-                    Debug.Log("Ajto nyit·s·hoz kÈrem nyomja meg a (g) gombot!");
+                    Debug.Log("Ajto nyitashoz kerem nyomja meg a (e) gombot!");
                     benneAll = true;
 
                 }
-                else { Debug.Log("Sz¸ksÈges a s·rga kulcs az ajto kinyit·s·hoz!"); }
+                else { Debug.Log("SzÅEsÈges a s·rga kulcs az ajto kinyit·s·hoz!"); }
             }
-           else if (gameObject.name == "K_lakat")
+           else if (gameObject.name == "kek_lada")
             {
                 if (charinfo.keyK)
                 {
-                    Debug.Log("Ajto nyit·s·hoz kÈrem nyomja meg a (g) gombot!");
+                    Debug.Log("L·da kinyit·s·hoz kÈrem nyomja meg a (e) gombot!");
                     benneAll = true;
 
                 }
-                else { Debug.Log("Sz¸ksÈges a kÈk kulcs az ajto kinyit·s·hoz!"); }
+                else { Debug.Log("SzÅEsÈges a kÈk kulcs a l·da kinyit·s·hoz!"); }
             }
-            else if (gameObject.name == "Z_lakat")
+            else if (gameObject.name == "zold_lada")
             {
                 if (charinfo.keyZ)
                 {
-                    Debug.Log("Ajto nyit·s·hoz kÈrem nyomja meg a (g) gombot!");
+                    Debug.Log("L·da kinyit·s·hoz kÈrem nyomja meg a (e) gombot!");
                     benneAll = true;
 
                 }
-                else { Debug.Log("Sz¸ksÈges a zˆld kulcs az ajto kinyit·s·hoz!"); }
+                else { Debug.Log("SzÅEsÈges a zˆld kulcs a l·da kinyit·s·hoz!"); }
             }
 
         }
