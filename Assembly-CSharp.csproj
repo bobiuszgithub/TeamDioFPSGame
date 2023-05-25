@@ -96,6 +96,7 @@
     <Compile Include="Assets\Scripts\Doors\EDoor.cs" />
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+    <Compile Include="Assets\Scripts\Weapon Scripts\blockChangeOneAnimation.cs" />
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\Scripts\Player\CharacterInfo.cs" />
     <Compile Include="Assets\Scripts\Weapon Scripts\rocketLauncher.cs" />
@@ -120,6 +121,7 @@
     <Compile Include="Assets\Scripts\Doors\Kulcsos_ajtok.cs" />
     <Compile Include="Assets\Render PipeLine\Flicker light.cs" />
     <Compile Include="Assets\Scripts\Rooms\Map_6\PoisonScript.cs" />
+    <Compile Include="Assets\Scripts\Weapon Scripts\blockChangeTwoAnimatiosns.cs" />
     <Compile Include="Assets\Scripts\MenuScripts\GameOver.cs" />
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
@@ -131,8 +133,6 @@
     <Compile Include="Assets\Scripts\Weapon Scripts\Shotgun.cs" />
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\BossCheck.cs" />
-    <Compile Include="Assets\Scripts\Weapon Scripts\blockChangeOneAnimation.cs" />
-    <Compile Include="Assets\Scripts\Weapon Scripts\blockChangeTwoAnimatiosns.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\zNem aktualis\TextMesh Pro\Shaders\TMPro.cginc" />

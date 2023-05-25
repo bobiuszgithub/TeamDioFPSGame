@@ -132,4 +132,9 @@ public class locks : MonoBehaviour
         benneAll = false;
         //canvas szoveg eltuntetese
     }
+
+    private void OnDestroy()
+    {
+        textUGUI.text = " ";
+    }
 }
