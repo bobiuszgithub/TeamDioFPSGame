@@ -96,31 +96,28 @@ public class locks : MonoBehaviour
                 if (charinfo.keyS)
                 {
 
-                    Debug.Log("Ajto nyitashoz kerem nyomja meg a (e) gombot!");
                     benneAll = true;
 
                 }
-                else { Debug.Log("SzÅEsÈges a s·rga kulcs az ajto kinyit·s·hoz!"); }
+                else { textUGUI.text = "Nem nyithat? s?rga kulcs n?lk?l"; }
             }
             else if (gameObject.name == "kek_lada")
             {
                 if (charinfo.keyK)
                 {
-                    Debug.Log("L·da kinyit·s·hoz kÈrem nyomja meg a (e) gombot!");
                     benneAll = true;
 
                 }
-                else { Debug.Log("SzÅEsÈges a kÈk kulcs a l·da kinyit·s·hoz!"); }
+                else { textUGUI.text = "Nem nyithat? k?k kulcs n?lk?l"; }
             }
             else if (gameObject.name == "zold_lada")
             {
                 if (charinfo.keyZ)
                 {
-                    Debug.Log("L·da kinyit·s·hoz kÈrem nyomja meg a (e) gombot!");
                     benneAll = true;
 
                 }
-                else { Debug.Log("SzÅEsÈges a zˆld kulcs a l·da kinyit·s·hoz!"); }
+                else { textUGUI.text = "Nem nyithat? z?ld kulcs n?lk?l"; }
             }
 
         }
