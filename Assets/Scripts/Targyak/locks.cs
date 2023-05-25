@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class locks : MonoBehaviour
@@ -10,6 +11,7 @@ public class locks : MonoBehaviour
     
     private bool benneAll;
 
+    public TextMeshProUGUI textUGUI;
     void Start()
     {
         charinfo = player.GetComponent<CharacterInfo>();
@@ -20,16 +22,19 @@ public class locks : MonoBehaviour
     void Update()
     {
 
+
+
         if (benneAll)
-        {
-            if(Input.GetKeyUp("e"))
+        {       
+            if (Input.GetKeyUp("e"))
             {
+                
                 ellenorzesS();
                 ellenorzesK();
                 ellenorzesZ();
-            }
-            
+            }          
         }
+     
 
     }
     private void ellenorzesZ()
@@ -74,22 +79,30 @@ public class locks : MonoBehaviour
         }
     }
 
-    
+
+    private void OnTriggerStay(Collider other)
+    {
+       
+    }
+
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
         {
+            textUGUI.text = "Press e to interact";
             if (gameObject.name == "S_lakat")
             {
                 if (charinfo.keyS)
                 {
+
                     Debug.Log("Ajto nyitashoz kerem nyomja meg a (e) gombot!");
                     benneAll = true;
 
                 }
                 else { Debug.Log("SzÅEsÈges a s·rga kulcs az ajto kinyit·s·hoz!"); }
             }
-           else if (gameObject.name == "kek_lada")
+            else if (gameObject.name == "kek_lada")
             {
                 if (charinfo.keyK)
                 {
@@ -115,6 +128,7 @@ public class locks : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
+        textUGUI.text = " ";
         benneAll = false;
         //canvas szoveg eltuntetese
     }

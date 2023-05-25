@@ -13,12 +13,17 @@ public class Map5 : MonoBehaviour
     private bool StartCountDown;
     private bool elsoalkalom;
 
+
+
     float Timer = .0f;
-    float TimeToDamage = 5.0f;
+    float TimeToDamage = 1.5f;
 
 
     void Start()
     {
+        
+
+
         EnemyInfo = enemy.GetComponent<enemy>();
         mozgas = enemy.GetComponent<NavMeshAgent>();
         mozgas.enabled = false;
@@ -48,7 +53,7 @@ public class Map5 : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
-        {
+        {         
             StartCountDown = true;
         }
 
