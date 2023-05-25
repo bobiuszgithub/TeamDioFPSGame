@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class weaponChange : MonoBehaviour
 {
-    private int weapon = 0;
+    public int weapon = 0;
     public GameObject Sword;
     public GameObject Pistol;
     public GameObject CM9;
@@ -32,27 +32,27 @@ public class weaponChange : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!SwordAnimator.GetCurrentAnimatorStateInfo(0).IsName("sword"))
-        {
-            if (Input.GetAxis("Mouse ScrollWheel") > 0)
-            {
-                weapon++;
-                if (weapon == 6)
-                {
-                    weapon = 0;
-                }
+        //if (!SwordAnimator.GetCurrentAnimatorStateInfo(0).IsName("sword"))
+        //{
+        //    if (Input.GetAxis("Mouse ScrollWheel") > 0)
+        //    {
+        //        weapon++;
+        //        if (weapon == 6)
+        //        {
+        //            weapon = 0;
+        //        }
 
-            }
-            if (Input.GetAxis("Mouse ScrollWheel") < 0)
-            {
-                weapon--;
-                if (weapon == -1)
-                {
-                    weapon = 6;
-                }
+        //    }
+        //    if (Input.GetAxis("Mouse ScrollWheel") < 0)
+        //    {
+        //        weapon--;
+        //        if (weapon == -1)
+        //        {
+        //            weapon = 6;
+        //        }
 
-            }
-        }
+        //    }
+        //}
 
 
         switch (weapon)

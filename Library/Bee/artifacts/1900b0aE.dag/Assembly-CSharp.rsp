@@ -396,6 +396,8 @@
 "Assets/Scripts/Targyak/locks.cs"
 "Assets/Scripts/Targyak/potion.cs"
 "Assets/Scripts/teleport.cs"
+"Assets/Scripts/Weapon Scripts/blockChangeOneAnimation.cs"
+"Assets/Scripts/Weapon Scripts/blockChangeTwoAnimatiosns.cs"
 "Assets/Scripts/Weapon Scripts/Bullet.cs"
 "Assets/Scripts/Weapon Scripts/Explosion.cs"
 "Assets/Scripts/Weapon Scripts/GrenadeWeapon.cs"

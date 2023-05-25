@@ -101,13 +101,8 @@ public class Shotgun : MonoBehaviour
         }
      
 
-
-
-
-
-
     }
 
-
+  
 
 }
