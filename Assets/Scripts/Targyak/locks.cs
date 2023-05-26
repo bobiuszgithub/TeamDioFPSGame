@@ -141,9 +141,9 @@ public class locks : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        textUGUI.text = " ";
+        textUGUI.text = " ";  //canvas szoveg eltuntetese
         benneAll = false;
-        //canvas szoveg eltuntetese
+      
     }
 
     private void OnDestroy()
