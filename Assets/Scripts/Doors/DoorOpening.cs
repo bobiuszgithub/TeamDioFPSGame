@@ -12,19 +12,15 @@ public class DoorOpening : MonoBehaviour
 
     private bool animationplayed;
 
-    public Light doorLight;
+    public GameObject PeaceLight;
+    public GameObject FightLight;
 
 
     void Start()
     {
    
         animator = GetComponent<Animator>();
-        animationplayed = false;
-        if (doorLight != null)
-        {
-            doorLight.enabled = false;
-        }
-        
+        animationplayed = false;     
 
     }
 
@@ -35,9 +31,13 @@ public class DoorOpening : MonoBehaviour
         {
             animator.SetTrigger("OpenDoor");
             animationplayed = true;
-            if (doorLight != null)
+            if (PeaceLight != null)
             {
-                doorLight.enabled = true;
+                PeaceLight.SetActive(true);
+            }
+            if (FightLight != null)
+            {
+                FightLight.SetActive(false);
             }
         }
     }

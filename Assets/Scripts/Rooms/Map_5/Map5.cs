@@ -13,6 +13,8 @@ public class Map5 : MonoBehaviour
     private bool StartCountDown;
     private bool elsoalkalom;
 
+    public GameObject FightLights;
+
 
 
     float Timer = .0f;
@@ -27,7 +29,6 @@ public class Map5 : MonoBehaviour
         EnemyInfo = enemy.GetComponent<enemy>();
         mozgas = enemy.GetComponent<NavMeshAgent>();
         mozgas.enabled = false;
-
         StartCountDown = false;
         elsoalkalom = true;
 
@@ -55,6 +56,12 @@ public class Map5 : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {         
             StartCountDown = true;
+            try
+            {
+                FightLights.SetActive(true);
+            }
+            catch { };
+            
         }
 
     }

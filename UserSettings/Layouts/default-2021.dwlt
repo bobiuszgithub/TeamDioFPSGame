@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 28
+  controlID: 17
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -433,22 +433,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Animations
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Animations
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Bence\Documents\GitHub\25\TeamDioFPSGame
+  m_LastProjectPath: D:\programs\Unity\game\GitNoCache\new4\TeamDioFPSGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 7}
-    m_SelectedIDs: 288f0000
-    m_LastClickedID: 36648
-    m_ExpandedIDs: 00000000fc8e0000fe8e0000008f0000028f0000048f0000068f0000088f00000a8f00000c8f00000e8f0000108f000000ca9a3b
+    m_SelectedIDs: 468f0000
+    m_LastClickedID: 36678
+    m_ExpandedIDs: 00000000368f0000388f00003a8f00003c8f00003e8f0000408f0000428f0000448f0000468f0000488f00004a8f000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -476,7 +476,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000fc8e0000fe8e0000008f0000028f0000048f0000068f0000088f00000a8f00000c8f00000e8f0000108f0000
+    m_ExpandedIDs: 00000000368f0000388f00003a8f00003c8f00003e8f0000408f0000428f0000448f0000468f0000488f00004a8f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -503,22 +503,22 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: openDoor
-      m_OriginalName: openDoor
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 35956
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_CreateAssetUtility:
@@ -604,23 +604,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 98740000
-      m_LastClickedID: 29848
-      m_ExpandedIDs: 84b3ffffe6bcffff0cfbffff346b00003e6b0000da6c0000986d0000426e0000806e00005c70000048710000c471000028720000aa720000e6720000187300005c730000a2740000487500001c7700007e770000f6770000ce7800003e7900001c7a0000207a00005e7b0000647b00005e7c0000dc7c0000907f0000d27f0000488000008c810000
+      m_SelectedIDs: e4aeffff
+      m_LastClickedID: -20764
+      m_ExpandedIDs: e4aeffffbab1ffff66eaffffbcfaffff3e6d00009a6e0000fe7b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Kapuk
-        m_OriginalName: Kapuk
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 29354
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 4
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -846,18 +846,18 @@ MonoBehaviour:
       index: 10
       layout: 4
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
-  m_Gizmos: 1
+  m_Gizmos: 0
   m_OverrideSceneCullingMask: 6917529027641081856
-  m_SceneIsLit: 0
+  m_SceneIsLit: 1
   m_SceneLighting: 1
   m_2DMode: 0
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 343.7465, y: 2.2468345, z: -43.66895}
+    m_Target: {x: -280.37213, y: 0.9081374, z: -28.931395}
     speed: 2
-    m_Value: {x: 343.7465, y: 2.2468345, z: -43.66895}
+    m_Value: {x: -280.37213, y: 0.9081374, z: -28.931395}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -904,9 +904,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.24859858, y: 0.7267094, z: -0.3044239, w: -0.5670576}
+    m_Target: {x: 0.022657149, y: -0.9836972, z: 0.09914831, w: 0.16179891}
     speed: 2
-    m_Value: {x: -0.24808605, y: 0.7252112, z: -0.3037963, w: -0.5658885}
+    m_Value: {x: 0.022758298, y: -0.981403, z: 0.098907575, w: 0.16293386}
   m_Size:
     m_Target: 10
     speed: 2
