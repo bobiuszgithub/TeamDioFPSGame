@@ -54,16 +54,24 @@ public class locks : MonoBehaviour
 
     private void ellenorzesK()
     {
+        if (gameObject.name == "K_lakat" && benneAll)
+        {
+            if (charinfo.keyK)
+            {                
+                Destroy(gameObject);
+            }
+            benneAll = false;
+        }
+
         if (gameObject.name == "kek_lada" && benneAll)
         {
             if (charinfo.keyK)
             {
                 item.SetActive(true);
-                Destroy(gameObject);
-
+                Destroy(gameObject);                
             }
             benneAll = false;
-        } 
+        }
     }
 
     private void ellenorzesS()
@@ -99,16 +107,16 @@ public class locks : MonoBehaviour
                     benneAll = true;
 
                 }
-                else { textUGUI.text = "Nem nyithat? s?rga kulcs n?lk?l"; }
+                else { textUGUI.text = "Nem nyitható sárga kulcs nélkûl"; }
             }
-            else if (gameObject.name == "kek_lada")
+            else if (gameObject.name == "K_lakat")
             {
                 if (charinfo.keyK)
                 {
                     benneAll = true;
 
                 }
-                else { textUGUI.text = "Nem nyithat? k?k kulcs n?lk?l"; }
+                else { textUGUI.text = "Nem nyitható kék kulcs nélkûl"; }
             }
             else if (gameObject.name == "zold_lada")
             {
@@ -117,7 +125,15 @@ public class locks : MonoBehaviour
                     benneAll = true;
 
                 }
-                else { textUGUI.text = "Nem nyithat? z?ld kulcs n?lk?l"; }
+                else { textUGUI.text = "Nem nyitható zõld kulcs nélkûl"; }
+            }
+            else if (gameObject.name == "kek_lada")
+            {
+                if (charinfo.keyK)
+                {
+                    benneAll = true;
+                }
+                else { textUGUI.text = "Nem nyitható kék kulcs nélkûl"; }
             }
 
         }
