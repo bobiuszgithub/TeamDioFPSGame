@@ -15,7 +15,7 @@ D:/programs/Unity/game/GitNoCache/new5/TeamDioFPSGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51515
+51613
 Successfully changed project path to: D:/programs/Unity/game/GitNoCache/new5/TeamDioFPSGame
 D:/programs/Unity/game/GitNoCache/new5/TeamDioFPSGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/programs/Unity/game/GitNoCache/new5/TeamDioFPSGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 254.41 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 235.88 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.5f1 (40eb3a945986)
 [Subsystems] Discovering subsystems at path D:/programs/Unity/Unity/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -63,89 +63,89 @@ Initialize mono
 Mono path[0] = 'D:/programs/Unity/Unity/2021.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'D:/programs/Unity/Unity/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/programs/Unity/Unity/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/programs/Unity/Unity/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.014443 seconds.
+Registered in 0.009836 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 223.65 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 311.10 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.654 seconds
+- Completed reload, in  1.474 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1654ms)
-		BeginReloadAssembly (188ms)
+	ReloadAssembly (1475ms)
+		BeginReloadAssembly (209ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (994ms)
-			LoadAssemblies (187ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1045ms)
+			LoadAssemblies (208ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (241ms)
+			SetupTypeCache (231ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (605ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (670ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (224ms)
+				RefreshPlugins (311ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (271ms)
-				ProcessInitializeOnLoadMethodAttributes (94ms)
+				ProcessInitializeOnLoadAttributes (265ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.016864 seconds.
+Registered in 0.016343 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\programs\Unity\game\GitNoCache\new5\TeamDioFPSGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\programs\Unity\game\GitNoCache\new5\TeamDioFPSGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 216.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 231.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.714 seconds
+- Completed reload, in  3.537 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2715ms)
-		BeginReloadAssembly (248ms)
+	ReloadAssembly (3539ms)
+		BeginReloadAssembly (293ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (2234ms)
-			LoadAssemblies (246ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (3008ms)
+			LoadAssemblies (299ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (677ms)
+			SetupTypeCache (800ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (142ms)
-			SetupLoadedEditorAssemblies (1129ms)
+			RebuildScriptCaches (130ms)
+			SetupLoadedEditorAssemblies (1766ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (216ms)
-				BeforeProcessingInitializeOnLoad (226ms)
-				ProcessInitializeOnLoadAttributes (510ms)
-				ProcessInitializeOnLoadMethodAttributes (161ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				RefreshPlugins (231ms)
+				BeforeProcessingInitializeOnLoad (224ms)
+				ProcessInitializeOnLoadAttributes (1134ms)
+				ProcessInitializeOnLoadMethodAttributes (160ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 2.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5320 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 47 unused Assets / (1.9 MB). Loaded Objects now: 5769.
-Memory consumption went from 289.3 MB to 287.4 MB.
-Total: 7.374200 ms (FindLiveObjects: 0.740900 ms CreateObjectMapping: 0.387500 ms MarkObjects: 5.110600 ms  DeleteObjects: 1.133300 ms)
+Memory consumption went from 289.2 MB to 287.3 MB.
+Total: 9.164000 ms (FindLiveObjects: 1.248300 ms CreateObjectMapping: 0.862200 ms MarkObjects: 5.657500 ms  DeleteObjects: 1.392800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,25 +159,103 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 28200.183109 seconds.
-  path: Assets/zNem aktualis/zBotond/Boss/Shockwave.fbx
-  artifactKey: Guid(b149d21983296dc41990e83065cd54c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/zNem aktualis/zBotond/Boss/Shockwave.fbx using Guid(b149d21983296dc41990e83065cd54c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5224820a05ea66a192cc1cdf71029522') in 0.671831 seconds 
+  Time since last request: 28792.123729 seconds.
+  path: Assets/rocket.cs
+  artifactKey: Guid(5c80a9406cfe0ba41b8a87250d13cd09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rocket.cs using Guid(5c80a9406cfe0ba41b8a87250d13cd09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33d0c73ac7688f85eba7b95fb7c561b') in 0.209086 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/zNem aktualis/zBotond/Boss/DownSlap.prefab
-  artifactKey: Guid(1076ad3f21ba5ff47b9eeac4e87728f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/zNem aktualis/zBotond/Boss/DownSlap.prefab using Guid(1076ad3f21ba5ff47b9eeac4e87728f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c006c6ff4e0eed4d4bc17f7cd4d4de5') in 0.174987 seconds 
+  Time since last request: 0.000035 seconds.
+  path: Assets/zNem aktualis/zBotond/Boss/CrystalBoss.prefab
+  artifactKey: Guid(124c908c09c9516458fda970fdeee384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zNem aktualis/zBotond/Boss/CrystalBoss.prefab using Guid(124c908c09c9516458fda970fdeee384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc88668b803b525e91326913546e65aa') in 0.351380 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016292 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\programs\Unity\game\GitNoCache\new5\TeamDioFPSGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\programs\Unity\game\GitNoCache\new5\TeamDioFPSGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.261 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2263ms)
+		BeginReloadAssembly (289ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (1784ms)
+			LoadAssemblies (250ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (653ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (777ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (160ms)
+				ProcessInitializeOnLoadAttributes (433ms)
+				ProcessInitializeOnLoadMethodAttributes (151ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 12.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5202 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (1.9 MB). Loaded Objects now: 5778.
+Memory consumption went from 282.2 MB to 280.3 MB.
+Total: 8.699600 ms (FindLiveObjects: 1.009300 ms CreateObjectMapping: 0.775300 ms MarkObjects: 5.763000 ms  DeleteObjects: 1.149300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/zNem aktualis/zBotond/Boss/ShockWave Variant.prefab
-  artifactKey: Guid(d4c2b21d98702c44687b90b5e460b541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/zNem aktualis/zBotond/Boss/ShockWave Variant.prefab using Guid(d4c2b21d98702c44687b90b5e460b541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3441edfb1982abf06ee75c546bd9d7e5') in 0.470261 seconds 
+  Time since last request: 674.542051 seconds.
+  path: Assets/Nem sajat/Stylized Lava Materials/Lava02/T_Lava02_basecolor.png
+  artifactKey: Guid(c0cfa846b033b0c4c9c81856f53a734b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nem sajat/Stylized Lava Materials/Lava02/T_Lava02_basecolor.png using Guid(c0cfa846b033b0c4c9c81856f53a734b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be9c34ef4b1ea55c15a8030ce356b22') in 0.211510 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 60.242802 seconds.
-  path: Assets/zNem aktualis/zBotond/Boss/BossLogic.cs
-  artifactKey: Guid(80c6733a6cd316646860335985908956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/zNem aktualis/zBotond/Boss/BossLogic.cs using Guid(80c6733a6cd316646860335985908956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '409b47e18b2828c75e6286d8adc14ae4') in 0.018365 seconds 
+  Time since last request: 0.000041 seconds.
+  path: Assets/Nem sajat/Stylized Lava Materials/Lava02/T_Lava02_emissive.png
+  artifactKey: Guid(5e1b3fdd9823e0849bd594e8c5f87f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nem sajat/Stylized Lava Materials/Lava02/T_Lava02_emissive.png using Guid(5e1b3fdd9823e0849bd594e8c5f87f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76acceacb9f42e80d97d5df10879668') in 0.040874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Nem sajat/Stylized Lava Materials/Lava02/T_Lava02_height.png
+  artifactKey: Guid(372cb625b210c8947b9fb99adc83e72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nem sajat/Stylized Lava Materials/Lava02/T_Lava02_height.png using Guid(372cb625b210c8947b9fb99adc83e72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36206d239151584ddddd76747266812') in 0.031307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Nem sajat/Stylized Lava Materials/Lava02/T_Lava02_normal.png
+  artifactKey: Guid(71610f3bc62fcfc4bb04f413e778e1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nem sajat/Stylized Lava Materials/Lava02/T_Lava02_normal.png using Guid(71610f3bc62fcfc4bb04f413e778e1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d30e82cf3e3f7311a5058463f4f0837') in 0.044186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Nem sajat/Stylized Lava Materials/Lava02/T_Lava02_metallic.png
+  artifactKey: Guid(87e60f60a1c94754780876b2c361f945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nem sajat/Stylized Lava Materials/Lava02/T_Lava02_metallic.png using Guid(87e60f60a1c94754780876b2c361f945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcf90428923ed25956fab7044ed7ae5e') in 0.035090 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
