@@ -44,32 +44,41 @@ public class BossLogic : MonoBehaviour
 
     void Start()
     {        
-        health = maxHealth;
-        Invoke(nameof(ResetRandomAttack), randomAttackResetTime);
+        health = maxHealth;        
     }
 
     void Update()
     {
-        RotateHandler();
-        CheckHP();
-
-        if (playerIsInRoom && canShoot && !isDoingSpecialAttack)
+        if (playerIsInRoom)
         {
-            Fire();
-            canShoot = false;
-            Invoke(nameof(ResetCanShoot), fireRate);
-        }
+            RotateHandler();
+            CheckHP();
 
-        if (canRandomAttack)
-        {
-            StartRandomAttack();
-            canRandomAttack = false;
-        }
+            if (canShoot && !isDoingSpecialAttack)
+            {
+                Fire();
+                canShoot = false;
+                Invoke(nameof(ResetCanShoot), fireRate);
+            }
+
+            if (canRandomAttack)
+            {
+                StartRandomAttack();
+                canRandomAttack = false;
+            }
+        }        
     }
 
     private void Fire()
     {
         Instantiate(mainProjectile, shootingLocation.transform.position, shootingCrystal.transform.rotation);
+    }
+
+    public void PlayerEnteredRoom()
+    {
+        Invoke(nameof(ResetRandomAttack), randomAttackResetTime);
+        playerIsInRoom = true;
+        Debug.Log("megjöttem");
     }
 
     private void CheckHP()

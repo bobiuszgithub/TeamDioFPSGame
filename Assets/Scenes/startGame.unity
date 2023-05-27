@@ -25473,6 +25473,65 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 532470677}
   m_CullTransparentMesh: 1
+--- !u!1 &532666710
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 532666711}
+  - component: {fileID: 532666713}
+  - component: {fileID: 532666712}
+  m_Layer: 0
+  m_Name: EnterTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &532666711
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532666710}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 65.45996, y: -4.3, z: -90.05966}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2045625175}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &532666712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532666710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0554bd1c251c974985162a1ecae6fd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bossScript: {fileID: 1388900956}
+--- !u!65 &532666713
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532666710}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 110, y: 20, z: 100}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &532995238
 GameObject:
   m_ObjectHideFlags: 0
@@ -49081,7 +49140,7 @@ PrefabInstance:
       objectReference: {fileID: 7947953521473798167, guid: 12bc386247b4100419d19738b8cf8d5a, type: 3}
     - target: {fileID: 4957230133580311478, guid: 124c908c09c9516458fda970fdeee384, type: 3}
       propertyPath: playerIsInRoom
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4957230133580311478, guid: 124c908c09c9516458fda970fdeee384, type: 3}
       propertyPath: shootingCrystal
@@ -72331,6 +72390,17 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1388900956 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4957230133580311478, guid: 124c908c09c9516458fda970fdeee384, type: 3}
+  m_PrefabInstance: {fileID: 950311129}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c6733a6cd316646860335985908956, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1390244962
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -107955,6 +108025,7 @@ Transform:
   - {fileID: 1236778742}
   - {fileID: 327317619}
   - {fileID: 2090861507}
+  - {fileID: 532666711}
   m_Father: {fileID: 1598341247}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
