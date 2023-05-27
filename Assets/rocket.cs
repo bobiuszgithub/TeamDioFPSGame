@@ -26,20 +26,33 @@ public class rocket : MonoBehaviour
     {
         if (other.gameObject.tag == "Enemy")
         {
-            ExplosionAudio.transform.parent = null;
-            ExplosionAudio.SetActive(true);
-            
-            GameObject.Instantiate(explosion, this.transform.position, Quaternion.identity);
-            Destroy(gameObject);
+            Explode();
         }
-        if (other.gameObject.layer == 3)
+        else if (other.gameObject.layer == 3)
         {
-            ExplosionAudio.transform.parent = null;
-            ExplosionAudio.SetActive(true);
-            GameObject.Instantiate(explosion, this.transform.position, Quaternion.identity);
-            Destroy(gameObject);
+            Explode();
         }
-        
+        else if (other.gameObject.tag == "CrystalBoss")
+        {
+            Explode();
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "CrystalBoss")
+        {
+            Explode();
+        }
+    }
+
+    public void Explode()
+    {
+        ExplosionAudio.transform.parent = null;
+        ExplosionAudio.SetActive(true);
+
+        GameObject.Instantiate(explosion, this.transform.position, Quaternion.identity);
+        Destroy(gameObject);
     }
 
 

@@ -15,6 +15,10 @@ TagManager:
   - Grenade
   - Explosion
   - SMGBullet
+  - ShockWave
+  - RotatingWall
+  - CrystalBoss
+  - Lava
   layers:
   - Default
   - TransparentFX
