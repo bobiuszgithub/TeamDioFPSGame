@@ -10,9 +10,12 @@ public class blockChangeOneAnimation : MonoBehaviour
     private Animator animator;
     public string animationName;
 
+    //private AudioSource audioSource;
+
     // Start is called before the first frame update
     void Start()
     {
+       // audioSource = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
         wp = wpobject.GetComponent<weaponChange>();
     }
@@ -24,6 +27,7 @@ public class blockChangeOneAnimation : MonoBehaviour
         {
             if (Input.GetAxis("Mouse ScrollWheel") > 0)
             {
+              //  audioSource.Stop();
                 wp.weapon++;
                 if (wp.weapon == 6)
                 {
@@ -33,6 +37,7 @@ public class blockChangeOneAnimation : MonoBehaviour
             }
             if (Input.GetAxis("Mouse ScrollWheel") < 0)
             {
+               // audioSource.Stop();
                 wp.weapon--;
                 if (wp.weapon == -1)
                 {

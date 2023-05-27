@@ -1,6 +1,9 @@
 using System;
 using TMPro;
+using UnityEditorInternal;
 using UnityEngine;
+using UnityEngine.Timeline;
+using UnityEngine.Audio;
 
 public class Pistol : MonoBehaviour
 {
@@ -22,22 +25,25 @@ public class Pistol : MonoBehaviour
     private Animator animator;
 
     public TextMeshProUGUI textUGUI;
-   // private AudioSource soundeffect;
 
+   private AudioSource soundeffect;
+   public AudioClip ReloadSound;
+   public AudioClip ShootSound;
+   
     private void Start()
     {
-        //soundeffect = GetComponent<AudioSource>();
+        soundeffect = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
         bullets = bulletCount;
 
         MuzzleFlash.enabled = false;
 
-        textUGUI.text = $"{bullets}/{bulletCount.ToString()}";
+        textUGUI.text = $"Pistol\n{bullets}/{bulletCount.ToString()}";
 
     }
     private void Update()
     {
-        textUGUI.text = $"{bullets}/{bulletCount.ToString()}";
+        textUGUI.text = $"Pistol\n{bullets}/{bulletCount.ToString()}";
 
         if (!animator.GetCurrentAnimatorStateInfo(0).IsName("shootPistol"))
         {
@@ -50,11 +56,13 @@ public class Pistol : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Mouse0))
             {
                 MuzzleFlash.enabled = true;
+                soundeffect.clip = ShootSound;
+                soundeffect.Play();
                 animator.SetTrigger("Shoot");
                 var bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, shellRotation.transform.rotation);
                 bullet.GetComponent<Rigidbody>().velocity = bulletSpawnPoint.forward * bulletspeed;
                 bullets--;
-                textUGUI.text = $"{bullets}/{bulletCount.ToString()}";
+                textUGUI.text = $"Pistol\n{bullets}/{bulletCount.ToString()}";
                 if (bullets == 0)
                 {
                     lockTime = DateTime.Now;
@@ -74,13 +82,14 @@ public class Pistol : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.R))
                 {
+                    soundeffect.clip = ReloadSound;
+                    soundeffect.Play();
                     MuzzleFlash.enabled = false;
                     animator.SetTrigger("Reload");
                     bullets = bulletCount;
-                    textUGUI.text = $"{bullets}/{bulletCount.ToString()}";
+                    textUGUI.text = $"Pistol\n{bullets}/{bulletCount.ToString()}";
                 }
-                //bullets = bulletCount;
-                //textUGUI.text = $"{bullets}/{bulletCount.ToString()}";
+              
             }
 
 

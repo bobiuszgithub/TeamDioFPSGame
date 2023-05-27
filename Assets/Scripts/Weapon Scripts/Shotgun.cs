@@ -27,21 +27,22 @@ public class Shotgun : MonoBehaviour
     private Animator animator;
 
     public TextMeshProUGUI textUGUI;
-   // private AudioSource soundeffect;
-
+    private AudioSource soundeffect;
+    public AudioClip ReloadSound;
+    public AudioClip ShootSound;
     private void Start()
     {
-       // soundeffect = GetComponent<AudioSource>();
+        soundeffect = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
         bullets = bulletCount;
         MuzzleFlash.enabled = false;
 
-        textUGUI.text = $"{bullets}/{bulletCount.ToString()}";
+        textUGUI.text = $"Shotgun\n{bullets}/{bulletCount.ToString()}";
 
     }
     private void Update()
     {
-        textUGUI.text = $"{bullets}/{bulletCount.ToString()}";
+        textUGUI.text = $"Shotgun\n{bullets}/{bulletCount.ToString()}";
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("shootShotgun"))
         {
             MuzzleFlash.enabled = false;
@@ -51,12 +52,13 @@ public class Shotgun : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Mouse0))
             {
-                //soundeffect.Play();
+                soundeffect.clip = ShootSound;
+                soundeffect.Play();
 
                 MuzzleFlash.enabled = true;
                 animator.SetTrigger("shootShotgun");
 
-            
+
                 var bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, shellRotation.transform.rotation);
                 bullet.GetComponent<Rigidbody>().velocity = bulletSpawnPoint.forward * bulletspeed;
 
@@ -66,13 +68,13 @@ public class Shotgun : MonoBehaviour
 
 
                 bullets--;
-                textUGUI.text = $"{bullets}/{bulletCount.ToString()}";
+                textUGUI.text = $"Shotgun\n{bullets}/{bulletCount.ToString()}";
                 if (bullets == 0)
                 {
                     lockTime = DateTime.Now;
                 }
             }
-            
+
 
         }
         else
@@ -88,21 +90,22 @@ public class Shotgun : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.R))
                 {
                     MuzzleFlash.enabled = false;
+                    soundeffect.clip = ReloadSound;
+                    soundeffect.Play();
                     animator.SetTrigger("Sreload");
                     bullets = bulletCount;
-                    textUGUI.text = $"{bullets}/{bulletCount.ToString()}";
+                    textUGUI.text = $"Shotgun\n{bullets}/{bulletCount.ToString()}";
                 }
-                //bullets = bulletCount;
-                //textUGUI.text = $"{bullets}/{bulletCount.ToString()}";
+
             }
 
 
 
         }
-     
+
 
     }
 
-  
+
 
 }

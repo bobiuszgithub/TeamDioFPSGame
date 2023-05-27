@@ -10,8 +10,9 @@ public class Grenade2 : MonoBehaviour
     float Timer = .0f;
     float TimeToExplo = 2.0f;
     public GameObject explosion;
+    public GameObject ExplosionAudio;
 
-    private 
+    private
     void Start()
     {
         
@@ -25,6 +26,10 @@ public class Grenade2 : MonoBehaviour
         Timer += 1 * Time.deltaTime;
         if (Timer >= TimeToExplo)
         {
+            ExplosionAudio.transform.parent = null;
+            ExplosionAudio.SetActive(true);
+
+
             GameObject.Instantiate(explosion, this.transform.position, Quaternion.identity);
             Destroy(gameObject);
 

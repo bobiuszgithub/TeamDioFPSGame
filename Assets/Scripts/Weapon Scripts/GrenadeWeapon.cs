@@ -31,13 +31,13 @@ public class GrenadeWeapon : MonoBehaviour
         bullets = bulletCount;
 
 
-        textUGUI.text = $"{bullets}/{bulletCount.ToString()}";
+        textUGUI.text = $"Grenade\n{bullets}/{bulletCount.ToString()}";
 
     }
     private void Update()
     {
 
-        textUGUI.text = $"{bullets}/{bulletCount.ToString()}";
+        textUGUI.text = $"Grenade\n{bullets}/{bulletCount.ToString()}";
 
         if (bullets > 0 && !canvas.isActiveAndEnabled)//
         {
@@ -47,7 +47,7 @@ public class GrenadeWeapon : MonoBehaviour
                 var bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, shellRotation.transform.rotation);
                 bullet.GetComponent<Rigidbody>().velocity = bulletSpawnPoint.forward * bulletspeed;
                 bullets--;
-                textUGUI.text = $"{bullets}/{bulletCount.ToString()}";
+                textUGUI.text = $"Grenade\n{bullets}/{bulletCount.ToString()}";
                 if (bullets == 0)
                 {
                     lockTime = DateTime.Now;
@@ -69,7 +69,7 @@ public class GrenadeWeapon : MonoBehaviour
                 {
                     //animator.SetTrigger("Reload");
                     bullets = bulletCount;
-                    textUGUI.text = $"{bullets}/{bulletCount.ToString()}";
+                    textUGUI.text = $"Grenade\n{bullets}/{bulletCount.ToString()}";
                 }
                 
             }

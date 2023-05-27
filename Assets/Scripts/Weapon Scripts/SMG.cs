@@ -26,6 +26,13 @@ public class SMG : MonoBehaviour
 
 
 
+    private AudioSource soundeffect;
+    public AudioClip ReloadSound;
+    public AudioClip ShootSound;
+
+
+
+
     float Timer = .0f;
     float TimeToDamage = 0.2f;
 
@@ -36,12 +43,12 @@ public class SMG : MonoBehaviour
 
     private void Start()
     {
-        //soundeffect = GetComponent<AudioSource>();
+        soundeffect = GetComponent<AudioSource>();
 
         animator = GetComponent<Animator>();
         bullets = bulletCount;
         MuzzleFlash.enabled = false;
-        textUGUI.text = $"{bullets}/{bulletCount}";
+        textUGUI.text = $"SMG\n{bullets}/{bulletCount}";
 
         shooting = false;
 
@@ -50,7 +57,7 @@ public class SMG : MonoBehaviour
 
     private void Update()
     {
-        textUGUI.text = $"{bullets}/{bulletCount}";
+        textUGUI.text = $"SMG\n{bullets}/{bulletCount}";
 
 
 
@@ -58,12 +65,14 @@ public class SMG : MonoBehaviour
         {
 
             shooting = true;
-
+            soundeffect.clip = ShootSound;
+            soundeffect.Play();
         }
         if (Input.GetButtonUp("Fire1"))
         {
             shooting = false;
             MuzzleFlash.enabled = false;
+            soundeffect.Stop();
         }
 
         if (bullets <= 0)
@@ -75,13 +84,15 @@ public class SMG : MonoBehaviour
         if (shooting)
         {
             Timer += 1 * Time.deltaTime;
+       
             if (Timer >= TimeToDamage)
             {
                 MuzzleFlash.enabled = true;
+               
                 var bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, shellRotation.transform.rotation);
                 bullet.GetComponent<Rigidbody>().velocity = bulletSpawnPoint.forward * bulletspeed;
                 bullets--;
-                textUGUI.text = $"{bullets}/{bulletCount}";
+                textUGUI.text = $"SMG\n{bullets}/{bulletCount}";
                 Timer = .0f;
   
             }
@@ -100,7 +111,7 @@ public class SMG : MonoBehaviour
             if (ReloadTimer >= ReloadTime)
             {
                 bullets = bulletCount;
-                textUGUI.text = $"{bullets}/{bulletCount.ToString()}";
+                textUGUI.text = $"SMG\n{bullets}/{bulletCount.ToString()}";
                 Reload = false;
                 ReloadTimer = .0f;
             }

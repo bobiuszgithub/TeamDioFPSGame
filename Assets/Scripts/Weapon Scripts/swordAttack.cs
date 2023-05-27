@@ -12,12 +12,13 @@ public class swordAttack : MonoBehaviour
     public TextMeshProUGUI textUGUI;
 
 
-  
+    private AudioSource soundeffect;
+    public AudioClip Slice;
 
 
     void Start()
     {
-        
+        soundeffect = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
     }
 
@@ -28,10 +29,12 @@ public class swordAttack : MonoBehaviour
       
 
 
-        textUGUI.text = " ";
+        textUGUI.text = "Sword";
         if (Input.GetKeyDown(KeyCode.Mouse0) && !canvas.isActiveAndEnabled)
         {
 
+            soundeffect.clip = Slice;
+            soundeffect.Play();
             animator.SetTrigger("Slice");
 
 

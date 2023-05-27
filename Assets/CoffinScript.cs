@@ -12,7 +12,7 @@ public class CoffinScript : MonoBehaviour
     private Animator koporsoanim1;
     private Animator koporsoanim2;
     private Animator koporsoanim3;
-
+    private bool PlayedOnce = false;
 
 
     // Start is called before the first frame update
@@ -32,8 +32,9 @@ public class CoffinScript : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player" && !PlayedOnce)
         {
+            PlayedOnce = true;
             koporsoanim1.SetTrigger("open");
             koporsoanim2.SetTrigger("open");
             koporsoanim3.SetTrigger("open");
