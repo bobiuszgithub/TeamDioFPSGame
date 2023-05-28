@@ -374,6 +374,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/BossCheck.cs"
 "Assets/CoffinScript.cs"
+"Assets/Diploma.cs"
+"Assets/ENDING.cs"
 "Assets/Grenade2.cs"
 "Assets/Render PipeLine/Flicker light.cs"
 "Assets/rocket.cs"

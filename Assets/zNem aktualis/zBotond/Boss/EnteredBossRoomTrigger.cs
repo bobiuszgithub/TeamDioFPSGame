@@ -17,4 +17,15 @@ public class EnteredBossRoomTrigger : MonoBehaviour
            
         }
     }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            if (bossScript != null)
+            {
+                bossScript.PlayerLeftRoom();
+            }
+        }
+    }
 }

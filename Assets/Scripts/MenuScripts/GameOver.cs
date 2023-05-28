@@ -16,26 +16,33 @@ public class GameOver : MonoBehaviour
     private PauseMenu pause;
     void Start()
     {
-        pause = playerinfo2.GetComponent<PauseMenu>();
-        GameoverCanvas.SetActive(false);
-        info = PlayerInfo.GetComponent<CharacterInfo>();
-        movement = PlayerInfo.GetComponent<Movement>();
-        Time.timeScale = 1;
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
+        if (playerinfo2 != null && PlayerInfo != null)
+        {
+            pause = playerinfo2.GetComponent<PauseMenu>();
+            GameoverCanvas.SetActive(false);
+            info = PlayerInfo.GetComponent<CharacterInfo>();
+            movement = PlayerInfo.GetComponent<Movement>();
+            Time.timeScale = 1;
+            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;
+        }
+ 
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (info.HP <= 0)
+        if (playerinfo2 != null && PlayerInfo != null)
         {
-            pause.enabled = false;
-            movement.enabled = false;
-            GameoverCanvas.SetActive(true);
-            Time.timeScale = 0;
-            Cursor.visible = true;
-            Cursor.lockState = CursorLockMode.None;
+            if (info.HP <= 0)
+            {
+                pause.enabled = false;
+                movement.enabled = false;
+                GameoverCanvas.SetActive(true);
+                Time.timeScale = 0;
+                Cursor.visible = true;
+                Cursor.lockState = CursorLockMode.None;
+            }
         }
     }
 

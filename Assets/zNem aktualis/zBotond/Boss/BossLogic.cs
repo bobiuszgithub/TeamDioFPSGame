@@ -84,7 +84,12 @@ public class BossLogic : MonoBehaviour
         playerIsInRoom = true;
        // Debug.Log("megjöttem");
     }
-
+    public void PlayerLeftRoom()
+    {
+        
+        playerIsInRoom = false;
+        
+    }
     private void CheckHP()
     {
         //Debug.Log(health);

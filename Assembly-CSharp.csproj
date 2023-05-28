@@ -109,6 +109,7 @@
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\zNem aktualis\zBotond\Boss\ShockWave.cs" />
+    <Compile Include="Assets\rotationScript.cs" />
     <Compile Include="Assets\Scripts\Doors\DoorOpening.cs" />
     <Compile Include="Assets\Scripts\Weapon Scripts\swordAttack.cs" />
     <Compile Include="Assets\Scripts\Weapon Scripts\Explosion.cs" />
@@ -138,7 +139,8 @@
     <Compile Include="Assets\Scripts\Weapon Scripts\Shotgun.cs" />
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\BossCheck.cs" />
-    <Compile Include="Assets\rotationScript.cs" />
+    <Compile Include="Assets\ENDING.cs" />
+    <Compile Include="Assets\Diploma.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\zNem aktualis\TextMesh Pro\Shaders\TMPro.cginc" />

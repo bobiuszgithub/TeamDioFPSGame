@@ -20,30 +20,42 @@ public class GrenadeWeapon : MonoBehaviour
 
     private DateTime lockTime;
     public Canvas canvas;
+
+
+
+
     private Animator animator;
+    float Timer = .0f;
+    float TimeToThrow = 0.8f;
+    private bool Thrown = false;
+
+
+
+
+
 
     public TextMeshProUGUI textUGUI;
-    // private AudioSource soundeffect;
+
+
+    private AudioSource soundeffect;
 
     private void Start()
     {
         animator = GetComponent<Animator>();
         bullets = bulletCount;
-
+        soundeffect = GetComponent<AudioSource>();
 
         textUGUI.text = $"Grenade\n{bullets}/{bulletCount.ToString()}";
 
     }
     private void Update()
     {
-
         textUGUI.text = $"Grenade\n{bullets}/{bulletCount.ToString()}";
-
-        if (bullets > 0 && !canvas.isActiveAndEnabled)//
+        if (Thrown)
         {
-            if (Input.GetKeyDown(KeyCode.Mouse0))
+            Timer += 1 * Time.deltaTime;
+            if (Timer >= TimeToThrow)
             {
-               
                 var bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, shellRotation.transform.rotation);
                 bullet.GetComponent<Rigidbody>().velocity = bulletSpawnPoint.forward * bulletspeed;
                 bullets--;
@@ -52,9 +64,21 @@ public class GrenadeWeapon : MonoBehaviour
                 {
                     lockTime = DateTime.Now;
                 }
+                Thrown = false;
+                Timer = .0f;
             }
-
-
+        }
+      
+       
+        if (bullets > 0 && !canvas.isActiveAndEnabled)//
+        {
+            if (Input.GetKeyDown(KeyCode.Mouse0))
+            {
+                soundeffect.Play();
+                animator.SetTrigger("Throw");
+                Thrown = true;
+                             
+            }
         }
         else
         {

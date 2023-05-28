@@ -102,14 +102,18 @@ public class SMG : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R))
         {
             Reload = true;
+            animator.SetTrigger("RELOAD");
         }
 
         if (Reload)
         {
             MuzzleFlash.enabled = false;
             ReloadTimer += 1 * Time.deltaTime;
+
             if (ReloadTimer >= ReloadTime)
             {
+
+
                 bullets = bulletCount;
                 textUGUI.text = $"SMG\n{bullets}/{bulletCount.ToString()}";
                 Reload = false;
