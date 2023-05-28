@@ -10,12 +10,14 @@ public class blockChangeOneAnimation : MonoBehaviour
     private Animator animator;
     public string animationName;
 
-    //private AudioSource audioSource;
+
+    public GameObject player;
+    private AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()
     {
-       // audioSource = GetComponent<AudioSource>();
+        audioSource = player.GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
         wp = wpobject.GetComponent<weaponChange>();
     }
@@ -27,7 +29,7 @@ public class blockChangeOneAnimation : MonoBehaviour
         {
             if (Input.GetAxis("Mouse ScrollWheel") > 0)
             {
-              //  audioSource.Stop();
+              audioSource.Stop();
                 wp.weapon++;
                 if (wp.weapon == 6)
                 {
@@ -37,7 +39,7 @@ public class blockChangeOneAnimation : MonoBehaviour
             }
             if (Input.GetAxis("Mouse ScrollWheel") < 0)
             {
-               // audioSource.Stop();
+               audioSource.Stop();
                 wp.weapon--;
                 if (wp.weapon == -1)
                 {
@@ -77,7 +79,7 @@ public class blockChangeOneAnimation : MonoBehaviour
     bool isPlaying(Animator anim, string stateName)
     {
         if (anim.GetCurrentAnimatorStateInfo(0).IsName(stateName) &&
-                anim.GetCurrentAnimatorStateInfo(0).normalizedTime < 1.0f)
+                anim.GetCurrentAnimatorStateInfo(0).normalizedTime < 1.1f)
             return true;
         else
             return false;

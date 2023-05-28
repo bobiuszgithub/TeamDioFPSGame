@@ -27,12 +27,13 @@ public class Shotgun : MonoBehaviour
     private Animator animator;
 
     public TextMeshProUGUI textUGUI;
+    public GameObject Player;
     private AudioSource soundeffect;
     public AudioClip ReloadSound;
     public AudioClip ShootSound;
     private void Start()
     {
-        soundeffect = GetComponent<AudioSource>();
+        soundeffect = Player.GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
         bullets = bulletCount;
         MuzzleFlash.enabled = false;

@@ -25,7 +25,7 @@ public class SMG : MonoBehaviour
 
 
 
-
+    public GameObject Player;
     private AudioSource soundeffect;
     public AudioClip ReloadSound;
     public AudioClip ShootSound;
@@ -43,7 +43,7 @@ public class SMG : MonoBehaviour
 
     private void Start()
     {
-        soundeffect = GetComponent<AudioSource>();
+        soundeffect = Player.GetComponent<AudioSource>();
 
         animator = GetComponent<Animator>();
         bullets = bulletCount;
@@ -77,6 +77,7 @@ public class SMG : MonoBehaviour
 
         if (bullets <= 0)
         {
+            soundeffect.Stop();
             shooting = false;
             MuzzleFlash.enabled = false;
         }
@@ -87,6 +88,7 @@ public class SMG : MonoBehaviour
        
             if (Timer >= TimeToDamage)
             {
+                animator.SetTrigger("SHOOT");
                 MuzzleFlash.enabled = true;
                
                 var bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, shellRotation.transform.rotation);
