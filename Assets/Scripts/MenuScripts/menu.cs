@@ -30,4 +30,17 @@ public class menu : MonoBehaviour
         Application.Quit();
         
     }
+    public void Return()
+    {
+        SceneManager.LoadScene("Menu");
+
+    }
+
+
+    public void Options()
+    {
+        SceneManager.LoadScene("Information");
+
+    }
+
 }

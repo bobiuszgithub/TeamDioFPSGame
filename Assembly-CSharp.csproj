@@ -126,6 +126,7 @@
     <Compile Include="Assets\zNem aktualis\zBotond\Turret\arrow\DmgTarget.cs" />
     <Compile Include="Assets\zNem aktualis\zBotond\Boss\DetectShockWave.cs" />
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+    <Compile Include="Assets\Options.cs" />
     <Compile Include="Assets\Scripts\Doors\Kulcsos_ajtok.cs" />
     <Compile Include="Assets\Render PipeLine\Flicker light.cs" />
     <Compile Include="Assets\Scripts\Rooms\Map_6\PoisonScript.cs" />

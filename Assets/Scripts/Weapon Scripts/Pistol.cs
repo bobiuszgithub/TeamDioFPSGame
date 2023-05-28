@@ -1,9 +1,6 @@
 using System;
 using TMPro;
-using UnityEditorInternal;
 using UnityEngine;
-using UnityEngine.Timeline;
-using UnityEngine.Audio;
 
 public class Pistol : MonoBehaviour
 {
@@ -28,10 +25,10 @@ public class Pistol : MonoBehaviour
 
 
     public GameObject Player;
-   private AudioSource soundeffect;
-   public AudioClip ReloadSound;
-   public AudioClip ShootSound;
-   
+    private AudioSource soundeffect;
+    public AudioClip ReloadSound;
+    public AudioClip ShootSound;
+
     private void Start()
     {
         soundeffect = Player.GetComponent<AudioSource>();
@@ -91,13 +88,13 @@ public class Pistol : MonoBehaviour
                     bullets = bulletCount;
                     textUGUI.text = $"Pistol\n{bullets}/{bulletCount.ToString()}";
                 }
-              
+
             }
 
 
 
         }
-       
+
 
 
 
@@ -106,7 +103,7 @@ public class Pistol : MonoBehaviour
 
     }
 
-    
+
 
 
 }

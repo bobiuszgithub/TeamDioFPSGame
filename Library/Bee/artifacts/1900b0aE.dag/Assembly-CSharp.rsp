@@ -377,6 +377,7 @@
 "Assets/Diploma.cs"
 "Assets/ENDING.cs"
 "Assets/Grenade2.cs"
+"Assets/Options.cs"
 "Assets/Render PipeLine/Flicker light.cs"
 "Assets/rocket.cs"
 "Assets/rotationScript.cs"
