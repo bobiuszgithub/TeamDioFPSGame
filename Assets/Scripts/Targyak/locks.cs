@@ -32,10 +32,20 @@ public class locks : MonoBehaviour
                 ellenorzesS();
                 ellenorzesK();
                 ellenorzesZ();
+                ellenorzesM1();
             }          
         }
      
 
+    }
+
+    private void ellenorzesM1()
+    {
+        if (gameObject.name=="mimic1" && benneAll)
+        {
+            item.SetActive(true);
+            Destroy(gameObject);
+        }
     }
     private void ellenorzesZ()
     {
@@ -98,7 +108,7 @@ public class locks : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            textUGUI.text = "Press e to interact";
+            textUGUI.text = "Press (e) to open";
             if (gameObject.name == "S_lakat")
             {
                 if (charinfo.keyS)
@@ -107,7 +117,7 @@ public class locks : MonoBehaviour
                     benneAll = true;
 
                 }
-                else { textUGUI.text = "Nem nyitható sárga kulcs nélkûl"; }
+                else { textUGUI.text = "The door cannot be opened without the yellow key"; }
             }
             else if (gameObject.name == "K_lakat")
             {
@@ -116,7 +126,7 @@ public class locks : MonoBehaviour
                     benneAll = true;
 
                 }
-                else { textUGUI.text = "Nem nyitható kék kulcs nélkûl"; }
+                else { textUGUI.text = "The door cannot be opened without the blue key"; }
             }
             else if (gameObject.name == "zold_lada")
             {
@@ -125,7 +135,7 @@ public class locks : MonoBehaviour
                     benneAll = true;
 
                 }
-                else { textUGUI.text = "Nem nyitható zõld kulcs nélkûl"; }
+                else { textUGUI.text = "The chest cannot be opened without the green key"; }
             }
             else if (gameObject.name == "kek_lada")
             {
@@ -133,7 +143,11 @@ public class locks : MonoBehaviour
                 {
                     benneAll = true;
                 }
-                else { textUGUI.text = "Nem nyitható kék kulcs nélkûl"; }
+                else { textUGUI.text = "The chest cannot be opened without the blue key"; }
+            }
+            else if (gameObject.name=="mimic1")
+            {
+                benneAll = true;
             }
 
         }

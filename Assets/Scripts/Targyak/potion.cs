@@ -48,12 +48,12 @@ public class potion : MonoBehaviour
             if (characterInfo.HP < 100)
             {
                 benneAll = true;
-                textUGUI.text = "Press e to drinking heal potion";
+                textUGUI.text = "Press (e) to drink the potion!";
             }
             else
             {
                 benneAll = false;
-                textUGUI.text = "Your life force is at its maximum, come back when it decreases!";
+                textUGUI.text = "Your health bar is full, you cannot take this potion";
             }
 
         }
@@ -63,8 +63,14 @@ public class potion : MonoBehaviour
               
     }
 
+    private void OnDestroy()
+    {
+        textUGUI.text = " ";
+        benneAll = false;
+    }
 
-private void OnTriggerExit(Collider other)
+
+    private void OnTriggerExit(Collider other)
 {
     textUGUI.text = " ";  //canvas szoveg eltuntetese
     benneAll = false;

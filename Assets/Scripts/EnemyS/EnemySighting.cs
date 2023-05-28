@@ -17,6 +17,16 @@ public class EnemySighting : MonoBehaviour
     {
         
     }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.gameObject.tag == "Player" || other.gameObject.tag == "Bullet")
+        {
+
+            EnemyInfo.PlayerinSight = true;
+        }
+    }
+  
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player" ||other.gameObject.tag == "Bullet")
