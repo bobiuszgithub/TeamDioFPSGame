@@ -11,16 +11,21 @@ public class rocket : MonoBehaviour
 
     public GameObject explosion;
     public GameObject ExplosionAudio;
-    private 
+    private Rigidbody rb;
+    private double startVelocity;
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody>();
+        startVelocity = rb.velocity.magnitude;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (rb.velocity.magnitude <= startVelocity * 0.7)
+        {
+            Explode();
+        }
     }
     private void OnTriggerEnter(Collider other)
     {
