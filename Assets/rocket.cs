@@ -33,11 +33,11 @@ public class rocket : MonoBehaviour
         {
             Explode();
         }
-        else if (other.gameObject.layer == 3)
-        {
-            Explode();
-        }
-        else if (other.gameObject.tag == "CrystalBoss")
+        //if (other.gameObject.layer == 3)
+        //{
+        //    Explode();
+        //}
+        if (other.gameObject.tag == "CrystalBoss")
         {
             Explode();
         }

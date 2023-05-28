@@ -9,8 +9,12 @@ public class EnteredBossRoomTrigger : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
-        {            
-            bossScript.PlayerEnteredRoom();
+        {
+            if (bossScript != null)
+            {
+                bossScript.PlayerEnteredRoom();
+            }
+           
         }
     }
 }

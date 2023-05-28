@@ -12,10 +12,15 @@ public class Grenade2 : MonoBehaviour
     public GameObject explosion;
     public GameObject ExplosionAudio;
 
+
+    
+    private AudioSource audioS;
+    public AudioClip audioC;
+
     private
     void Start()
     {
-        
+        audioS = GetComponent<AudioSource>();   
     }
 
     // Update is called once per frame
@@ -37,6 +42,13 @@ public class Grenade2 : MonoBehaviour
     }
 
 
-
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.layer == 3)
+        {
+            audioS.clip = audioC;
+            audioS.Play();
+        }
+    }
 
 }

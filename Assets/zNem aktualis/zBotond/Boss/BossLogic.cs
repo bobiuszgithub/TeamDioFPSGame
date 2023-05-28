@@ -5,10 +5,12 @@ using Unity.Mathematics;
 using Unity.PlasticSCM.Editor.WebApi;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BossLogic : MonoBehaviour
 {
     [SerializeField] int maxHealth = 1000;
+    public Slider BossHp;
     private int health;
     [SerializeField] GameObject target;
     [SerializeField] float fireRate = 5;
@@ -49,6 +51,8 @@ public class BossLogic : MonoBehaviour
 
     void Update()
     {
+        BossHp.value = health;
+
         if (playerIsInRoom)
         {
             RotateHandler();
@@ -78,12 +82,12 @@ public class BossLogic : MonoBehaviour
     {
         Invoke(nameof(ResetRandomAttack), randomAttackResetTime);
         playerIsInRoom = true;
-        Debug.Log("megjöttem");
+       // Debug.Log("megjöttem");
     }
 
     private void CheckHP()
     {
-        Debug.Log(health);
+        //Debug.Log(health);
         if (health <= 0)
         {
             Destroy(gameObject);            
@@ -219,7 +223,7 @@ public class BossLogic : MonoBehaviour
         {
             health = health - 100;
         }
-        Debug.Log(health);
+        //Debug.Log(health);
     }
 
     private void OnCollisionEnter(Collision collision)
