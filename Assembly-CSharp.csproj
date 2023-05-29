@@ -83,6 +83,7 @@
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+    <Compile Include="Assets\zNem aktualis\zBotond\SkullActivate.cs" />
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
@@ -127,6 +128,7 @@
     <Compile Include="Assets\zNem aktualis\zBotond\Boss\DetectShockWave.cs" />
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
     <Compile Include="Assets\Options.cs" />
+    <Compile Include="Assets\zNem aktualis\zBotond\SkullRiseScript.cs" />
     <Compile Include="Assets\Scripts\Doors\Kulcsos_ajtok.cs" />
     <Compile Include="Assets\Render PipeLine\Flicker light.cs" />
     <Compile Include="Assets\Scripts\Rooms\Map_6\PoisonScript.cs" />
@@ -142,8 +144,6 @@
     <Compile Include="Assets\Scripts\Weapon Scripts\Shotgun.cs" />
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\BossCheck.cs" />
-    <Compile Include="Assets\zNem aktualis\zBotond\SkullActivate.cs" />
-    <Compile Include="Assets\zNem aktualis\zBotond\SkullRiseScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\zNem aktualis\TextMesh Pro\Shaders\TMPro.cginc" />
