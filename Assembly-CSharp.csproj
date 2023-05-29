@@ -56,7 +56,7 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\TestScript.cs" />
+    <Compile Include="Assets\SOUNDS\TestScript.cs" />
     <Compile Include="Assets\Scripts\Weapon Scripts\gun.cs" />
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\Scripts\Weapon Scripts\GrenadeWeapon.cs" />
@@ -77,6 +77,7 @@
     <Compile Include="Assets\Scripts\EnemyS\EnemySighting.cs" />
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+    <Compile Include="Assets\Scripts\MenuScripts\EndingScreen.cs" />
     <Compile Include="Assets\Scripts\Spawn\tutorialbook.cs" />
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\Scripts\MenuScripts\menu.cs" />
@@ -125,6 +126,7 @@
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\zNem aktualis\zBotond\Turret\arrow\Projectile.cs" />
     <Compile Include="Assets\zNem aktualis\zBotond\Turret\arrow\DmgTarget.cs" />
+    <Compile Include="Assets\MasterVolume.cs" />
     <Compile Include="Assets\zNem aktualis\zBotond\Boss\DetectShockWave.cs" />
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
     <Compile Include="Assets\Scripts\MenuScripts\Options.cs" />
@@ -144,8 +146,7 @@
     <Compile Include="Assets\Scripts\Weapon Scripts\Shotgun.cs" />
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\Scripts\Rooms\BossCheck.cs" />
-    <Compile Include="Assets\Scripts\MenuScripts\EndingScreen.cs" />
-    <Compile Include="Assets\MasterVolume.cs" />
+    <Compile Include="Assets\CoffinCutScene.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\zNem aktualis\TextMesh Pro\Shaders\TMPro.cginc" />
