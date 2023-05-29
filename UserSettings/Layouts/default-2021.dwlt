@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 49
+  controlID: 88
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 50
+  controlID: 89
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 51
+  controlID: 90
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -496,22 +496,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Animations/Coffin
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Animations/Coffin
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Bence\Documents\GitHub\lastupdatexD\TeamDioFPSGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 23}
-    m_SelectedIDs: 3acd0200
-    m_LastClickedID: 183610
-    m_ExpandedIDs: 00000000ac6f0000ae6f0000b06f0000b26f0000c66f000000ca9a3b
+    m_SelectedIDs: f26e0000
+    m_LastClickedID: 28402
+    m_ExpandedIDs: 00000000cc6e0000ce6e0000d06e0000d26e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -539,7 +539,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ac6f0000ae6f0000b06f0000b26f0000
+    m_ExpandedIDs: 00000000cc6e0000ce6e0000d06e0000d26e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -667,9 +667,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 848d0200
-      m_LastClickedID: 167300
-      m_ExpandedIDs: 2af0fdff0c94feffb2c8feffc4f6feff0cf9feff5627ffffc252ffff727affff5c7cffff2aa3fffffca4ffff8cccffff0cfbffff54340100de3b0100c83e0100b83f0100d43f01001a7a0100808701000a8f0100f4910100d6b901002aba01008ed6010016de010000e10100488102002e880200768e0200069202006c95020016980200dc9b0200549d02006aa30200fca40200
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 46f5ffffa4f9ffff0cfbffffdc700000be79000048810000c48a0000f6930000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -918,9 +918,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -247.24815, y: 3.5898533, z: 66.731476}
+    m_Target: {x: 79.8482, y: 73.09958, z: -57.002228}
     speed: 2
-    m_Value: {x: -247.24815, y: 3.5898533, z: 66.731476}
+    m_Value: {x: 79.8482, y: 73.09958, z: -57.00223}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -967,13 +967,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.09684594, y: -0.6518297, z: 0.043120276, w: 0.7552943}
+    m_Target: {x: -0.24395053, y: 0.51045454, z: -0.118446104, w: -0.82006526}
     speed: 2
-    m_Value: {x: 0.0965284, y: -0.6496925, z: 0.042978894, w: 0.75281787}
+    m_Value: {x: -0.24192609, y: 0.5089534, z: -0.11728584, w: -0.8177299}
   m_Size:
-    m_Target: 0.75429416
+    m_Target: 4.423279
     speed: 2
-    m_Value: 0.75429416
+    m_Value: 4.423279
   m_Ortho:
     m_Target: 0
     speed: 2
