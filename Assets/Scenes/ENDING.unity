@@ -239,7 +239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c42e37df7d2c564d8b04651d464cbef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GameoverCanvas: {fileID: 0}
+  GameoverCanvas: {fileID: 1057330651}
   PlayerInfo: {fileID: 0}
   pausemenu: {fileID: 0}
   playerinfo2: {fileID: 0}
