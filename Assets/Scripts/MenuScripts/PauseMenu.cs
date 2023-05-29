@@ -1,3 +1,4 @@
+using UnityEditor.ShaderGraph.Serialization;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -5,11 +6,11 @@ public class PauseMenu : MonoBehaviour
 {
     public GameObject pausemenu;
 
-    
-    
+
+    public GameObject OptionCanvas;
     void Start()
     {
-        
+        OptionCanvas.SetActive(false);
         pausemenu.SetActive(false);
         Time.timeScale = 1;
         Cursor.visible = false;
@@ -53,6 +54,23 @@ public class PauseMenu : MonoBehaviour
     public void Restart()
     {
         SceneManager.LoadScene("startGame");
+    }
+
+
+    public void Options()
+    {
+        pausemenu.SetActive(false);
+        OptionCanvas.SetActive(true);
+
+      
+        
+    }
+
+
+    public void backToPause()
+    {
+        pausemenu.SetActive(true);
+        OptionCanvas.SetActive(false);
     }
 
 }

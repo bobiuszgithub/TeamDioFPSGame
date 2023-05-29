@@ -73,7 +73,7 @@
     <Compile Include="Assets\Scripts\MenuScripts\money.cs" />
     <Compile Include="Assets\zNem aktualis\zBotond\Turret\arrow\Turret.cs" />
     <Compile Include="Assets\Scripts\Targyak\potion.cs" />
-    <Compile Include="Assets\ENDING.cs" />
+    <Compile Include="Assets\Scripts\Rooms\ENDING.cs" />
     <Compile Include="Assets\Scripts\EnemyS\EnemySighting.cs" />
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
@@ -92,8 +92,8 @@
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\zNem aktualis\zBotond\Boss\BossLogic.cs" />
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
-    <Compile Include="Assets\rocket.cs" />
-    <Compile Include="Assets\Grenade2.cs" />
+    <Compile Include="Assets\Scripts\Weapon Scripts\rocket.cs" />
+    <Compile Include="Assets\Scripts\Weapon Scripts\Grenade2.cs" />
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\Scripts\Targyak\locks.cs" />
     <Compile Include="Assets\Scripts\Doors\EDoor.cs" />
@@ -106,10 +106,10 @@
     <Compile Include="Assets\Scripts\Weapon Scripts\rocketLauncher.cs" />
     <Compile Include="Assets\Scripts\Rooms\Map_5\Map5.cs" />
     <Compile Include="Assets\zNem aktualis\zBotond\Boss\EnteredBossRoomTrigger.cs" />
-    <Compile Include="Assets\CoffinScript.cs" />
+    <Compile Include="Assets\Scripts\Rooms\CoffinScript.cs" />
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
-    <Compile Include="Assets\Diploma.cs" />
+    <Compile Include="Assets\Scripts\Rooms\Diploma.cs" />
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\zNem aktualis\zBotond\Boss\ShockWave.cs" />
     <Compile Include="Assets\rotationScript.cs" />
@@ -127,7 +127,7 @@
     <Compile Include="Assets\zNem aktualis\zBotond\Turret\arrow\DmgTarget.cs" />
     <Compile Include="Assets\zNem aktualis\zBotond\Boss\DetectShockWave.cs" />
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
-    <Compile Include="Assets\Options.cs" />
+    <Compile Include="Assets\Scripts\MenuScripts\Options.cs" />
     <Compile Include="Assets\zNem aktualis\zBotond\SkullRiseScript.cs" />
     <Compile Include="Assets\Scripts\Doors\Kulcsos_ajtok.cs" />
     <Compile Include="Assets\Render PipeLine\Flicker light.cs" />
@@ -143,7 +143,9 @@
     <Compile Include="Assets\Scripts\Rooms\Map_3\PuzzleScript.cs" />
     <Compile Include="Assets\Scripts\Weapon Scripts\Shotgun.cs" />
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-    <Compile Include="Assets\BossCheck.cs" />
+    <Compile Include="Assets\Scripts\Rooms\BossCheck.cs" />
+    <Compile Include="Assets\Scripts\MenuScripts\EndingScreen.cs" />
+    <Compile Include="Assets\MasterVolume.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\zNem aktualis\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -135,9 +135,10 @@ GameObject:
   - component: {fileID: 17269421}
   - component: {fileID: 17269420}
   - component: {fileID: 17269419}
+  - component: {fileID: 17269424}
   - component: {fileID: 17269423}
   m_Layer: 5
-  m_Name: Game Over
+  m_Name: Ending
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -236,13 +237,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 17269418}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c42e37df7d2c564d8b04651d464cbef, type: 3}
+  m_Script: {fileID: 11500000, guid: c1977c4cfb3a5b7448fdfa42f97a0c8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GameoverCanvas: {fileID: 1057330651}
-  PlayerInfo: {fileID: 0}
-  pausemenu: {fileID: 0}
-  playerinfo2: {fileID: 0}
+--- !u!114 &17269424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17269418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1977c4cfb3a5b7448fdfa42f97a0c8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &77609738
 GameObject:
   m_ObjectHideFlags: 0
@@ -1519,6 +1528,7 @@ GameObject:
   - component: {fileID: 1057330654}
   - component: {fileID: 1057330653}
   - component: {fileID: 1057330652}
+  - component: {fileID: 1057330656}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1608,6 +1618,22 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1057330656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057330651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c42e37df7d2c564d8b04651d464cbef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameoverCanvas: {fileID: 0}
+  PlayerInfo: {fileID: 0}
+  pausemenu: {fileID: 0}
+  playerinfo2: {fileID: 0}
 --- !u!1 &1122683292
 GameObject:
   m_ObjectHideFlags: 0
@@ -2255,7 +2281,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 17269423}
+      - m_Target: {fileID: 1057330656}
         m_TargetAssemblyTypeName: GameOver, Assembly-CSharp
         m_MethodName: MainMenu
         m_Mode: 1
@@ -3000,7 +3026,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 17269423}
+      - m_Target: {fileID: 1057330656}
         m_TargetAssemblyTypeName: GameOver, Assembly-CSharp
         m_MethodName: Restart
         m_Mode: 1
