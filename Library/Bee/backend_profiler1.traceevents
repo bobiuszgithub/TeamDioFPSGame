@@ -1,482 +1,450 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1685397022738392, "dur":1384, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685397022739787, "dur":2230, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1685397022742062, "dur":29, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1685397022742092, "dur":478, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1685397022742594, "dur":910, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685397022743504, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685397022844995, "dur":151, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685397022845146, "dur":23, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685397022845169, "dur":34, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685397022845203, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685397022845217, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685397022845220, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685397022845230, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685397022845234, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685397022845243, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685397022845245, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685397022845253, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685397022845256, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685397022845264, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685397022845266, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685397022845275, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685397022845277, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685397022845286, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685397022845288, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685397022845297, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685397022845298, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685397022845307, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685397022845309, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685397022845317, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685397022845320, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685397022845329, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685397022845352, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685397022845376, "dur":4851, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1685397022742718, "dur":792, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685397022743512, "dur":6864, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685397022750397, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1685397022750399, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685397022750551, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1685397022750564, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685397022751449, "dur":3422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1685397022754873, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685397022754950, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685397022755063, "dur":496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685397022755598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685397022755607, "dur":4248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685397022759916, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685397022760090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685397022760121, "dur":4146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685397022764326, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685397022764391, "dur":478, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685397022764871, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685397022764961, "dur":1194, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685397022766159, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Burst.Cecil.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685397022766252, "dur":1117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685397022767371, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685397022767443, "dur":1409, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685397022768853, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685397022768923, "dur":980, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685397022769905, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685397022769977, "dur":832, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685397022770810, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685397022770867, "dur":1494, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685397022772363, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685397022772431, "dur":773, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685397022773206, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":1, "ts":1685397022773263, "dur":6895, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685397022780161, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":1, "ts":1685397022780269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685397022780279, "dur":4040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":1, "ts":1685397022784841, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":1, "ts":1685397022784916, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685397022784925, "dur":8285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":1, "ts":1685397022793285, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/level3.resS" }}
-,{ "pid":12345, "tid":1, "ts":1685397022793359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685397022793370, "dur":4759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/level3.resS" }}
-,{ "pid":12345, "tid":1, "ts":1685397022798201, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":1, "ts":1685397022798285, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1685397022798296, "dur":6180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":1, "ts":1685397022804541, "dur":40336, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685397022742724, "dur":790, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685397022743514, "dur":6872, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685397022750396, "dur":347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":2, "ts":1685397022750744, "dur":495, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685397022751240, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1685397022751353, "dur":469, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685397022751824, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685397022751994, "dur":366, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685397022752361, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685397022752424, "dur":527, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685397022752953, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685397022753024, "dur":397, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685397022753422, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685397022753494, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685397022753620, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685397022753699, "dur":464, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685397022754164, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685397022754240, "dur":426, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685397022754667, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685397022754737, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685397022754838, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685397022754904, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685397022755012, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685397022755167, "dur":420, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685397022755588, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685397022755811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685397022755825, "dur":6369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685397022762252, "dur":476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685397022762736, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685397022762744, "dur":13849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1685397022776654, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":2, "ts":1685397022776719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685397022776825, "dur":2232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":2, "ts":1685397022779111, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":2, "ts":1685397022779171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685397022779180, "dur":7427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":2, "ts":1685397022786680, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1685397022786740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1685397022786748, "dur":28095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1685397022814909, "dur":29895, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685397022742759, "dur":760, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685397022743519, "dur":6879, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685397022750401, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1685397022750665, "dur":1267, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685397022751933, "dur":328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":3, "ts":1685397022752262, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685397022752374, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685397022752432, "dur":644, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685397022753077, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685397022753134, "dur":427, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685397022753563, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685397022753643, "dur":485, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685397022754131, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685397022754194, "dur":476, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685397022754671, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685397022754745, "dur":264, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685397022755010, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685397022755073, "dur":516, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685397022755589, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685397022755822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685397022755839, "dur":6831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685397022762787, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685397022763178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685397022763189, "dur":32013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":3, "ts":1685397022795260, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/level1.resS" }}
-,{ "pid":12345, "tid":3, "ts":1685397022795326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1685397022795340, "dur":15165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/level1.resS" }}
-,{ "pid":12345, "tid":3, "ts":1685397022810581, "dur":34338, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685397022742790, "dur":733, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685397022743523, "dur":6865, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685397022750397, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1685397022750651, "dur":1180, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685397022751831, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685397022752008, "dur":369, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685397022752378, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685397022752434, "dur":648, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685397022753083, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685397022753138, "dur":428, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685397022753567, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685397022753618, "dur":507, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685397022754126, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685397022754195, "dur":487, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685397022754684, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685397022754756, "dur":409, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685397022755165, "dur":492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685397022755664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685397022755681, "dur":3465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685397022759213, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685397022759419, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685397022759429, "dur":4201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685397022763722, "dur":1198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685397022764927, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685397022764934, "dur":21909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":4, "ts":1685397022786906, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/resources.assets" }}
-,{ "pid":12345, "tid":4, "ts":1685397022786970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685397022786979, "dur":11125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/resources.assets" }}
-,{ "pid":12345, "tid":4, "ts":1685397022798172, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/level0" }}
-,{ "pid":12345, "tid":4, "ts":1685397022798277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1685397022798289, "dur":5312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/level0" }}
-,{ "pid":12345, "tid":4, "ts":1685397022803672, "dur":41228, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1685397022742815, "dur":716, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1685397022743531, "dur":6873, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1685397022750407, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1685397022750647, "dur":1138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1685397022751786, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":5, "ts":1685397022751974, "dur":246, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1685397022752222, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1685397022752307, "dur":606, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1685397022752915, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1685397022752990, "dur":372, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1685397022753362, "dur":514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":5, "ts":1685397022753884, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1685397022754837, "dur":3636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":5, "ts":1685397022758548, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":5, "ts":1685397022758777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1685397022758787, "dur":4423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":5, "ts":1685397022763294, "dur":334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1685397022763754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1685397022763763, "dur":30987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1685397022794828, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/level2" }}
-,{ "pid":12345, "tid":5, "ts":1685397022794899, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1685397022794908, "dur":5798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/level2" }}
-,{ "pid":12345, "tid":5, "ts":1685397022800775, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":5, "ts":1685397022800883, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1685397022800903, "dur":5701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":5, "ts":1685397022806676, "dur":38285, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685397022742851, "dur":688, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685397022743540, "dur":6851, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685397022750399, "dur":357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1685397022750756, "dur":1112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685397022751869, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685397022752138, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685397022752235, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685397022752301, "dur":597, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685397022752899, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685397022752966, "dur":433, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685397022753399, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685397022753458, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685397022753569, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685397022753628, "dur":497, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685397022754126, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685397022754191, "dur":473, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685397022754665, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685397022754724, "dur":215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685397022754940, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685397022755006, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685397022755126, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685397022755186, "dur":591, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685397022755778, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685397022756023, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685397022756116, "dur":5380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685397022761566, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685397022761760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685397022761769, "dur":8858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685397022770682, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685397022770740, "dur":1440, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685397022772181, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":6, "ts":1685397022772249, "dur":1488, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685397022773738, "dur":381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":6, "ts":1685397022774119, "dur":2681, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685397022776803, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/sharedassets4.resource" }}
-,{ "pid":12345, "tid":6, "ts":1685397022776893, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685397022776902, "dur":8348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/sharedassets4.resource" }}
-,{ "pid":12345, "tid":6, "ts":1685397022785302, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":6, "ts":1685397022785365, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685397022785371, "dur":8341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":6, "ts":1685397022793857, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/level3" }}
-,{ "pid":12345, "tid":6, "ts":1685397022793949, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1685397022794002, "dur":10617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/level3" }}
-,{ "pid":12345, "tid":6, "ts":1685397022804686, "dur":40301, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1685397022742877, "dur":668, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1685397022743545, "dur":6850, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1685397022750395, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1685397022750645, "dur":1027, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1685397022751674, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1685397022751830, "dur":392, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1685397022752224, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1685397022752308, "dur":644, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1685397022752953, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1685397022753025, "dur":388, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1685397022753415, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1685397022753491, "dur":285, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1685397022753776, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1685397022753836, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1685397022753951, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1685397022754001, "dur":668, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1685397022754670, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1685397022754727, "dur":217, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1685397022754945, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1685397022755023, "dur":217, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1685397022755241, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":7, "ts":1685397022755386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1685397022755397, "dur":3758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":7, "ts":1685397022759235, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":7, "ts":1685397022759509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1685397022759516, "dur":4466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":7, "ts":1685397022764024, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Burst.Unsafe.dll" }}
-,{ "pid":12345, "tid":7, "ts":1685397022764065, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1685397022764222, "dur":556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Burst.dll" }}
-,{ "pid":12345, "tid":7, "ts":1685397022764786, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1685397022764796, "dur":22081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Burst.dll" }}
-,{ "pid":12345, "tid":7, "ts":1685397022786934, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/level4.resS" }}
-,{ "pid":12345, "tid":7, "ts":1685397022786988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1685397022786996, "dur":9593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/level4.resS" }}
-,{ "pid":12345, "tid":7, "ts":1685397022796644, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/level1" }}
-,{ "pid":12345, "tid":7, "ts":1685397022796710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1685397022796721, "dur":4806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/level1" }}
-,{ "pid":12345, "tid":7, "ts":1685397022801586, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/boot.config" }}
-,{ "pid":12345, "tid":7, "ts":1685397022801806, "dur":703, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1685397022802515, "dur":42478, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685397022742907, "dur":643, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685397022743550, "dur":6863, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685397022750413, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":8, "ts":1685397022750620, "dur":918, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685397022751539, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1685397022751713, "dur":347, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685397022752061, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":8, "ts":1685397022752199, "dur":205, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685397022752405, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685397022752460, "dur":627, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685397022753088, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685397022753151, "dur":547, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685397022753699, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685397022753771, "dur":353, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685397022754125, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685397022754185, "dur":558, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685397022754743, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685397022754845, "dur":253, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685397022755099, "dur":813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685397022755922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685397022755939, "dur":6078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685397022762082, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685397022762263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685397022762273, "dur":8894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685397022771225, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685397022771284, "dur":1670, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685397022772955, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":8, "ts":1685397022773020, "dur":7349, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685397022780370, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":8, "ts":1685397022780475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685397022780489, "dur":5225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":8, "ts":1685397022785766, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":8, "ts":1685397022785947, "dur":363, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685397022786312, "dur":49662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":8, "ts":1685397022835975, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1685397022836139, "dur":8638, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685397022742953, "dur":602, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685397022743555, "dur":6838, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685397022750397, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":9, "ts":1685397022750621, "dur":918, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685397022751539, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":9, "ts":1685397022751686, "dur":375, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685397022752062, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685397022752139, "dur":779, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685397022752927, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685397022753040, "dur":358, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685397022753399, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685397022753461, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685397022753566, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685397022753631, "dur":294, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685397022753926, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685397022753985, "dur":534, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685397022754520, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685397022754587, "dur":165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685397022754753, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685397022754855, "dur":307, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685397022755163, "dur":304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685397022755474, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685397022755594, "dur":4686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685397022760346, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685397022760531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685397022760538, "dur":11057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685397022771659, "dur":977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685397022772637, "dur":766, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685397022773404, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685397022773672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685397022776198, "dur":12266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":9, "ts":1685397022788541, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/level4" }}
-,{ "pid":12345, "tid":9, "ts":1685397022788629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685397022788639, "dur":8227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/level4" }}
-,{ "pid":12345, "tid":9, "ts":1685397022796926, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/level0.resS" }}
-,{ "pid":12345, "tid":9, "ts":1685397022796984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1685397022796992, "dur":6310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/level0.resS" }}
-,{ "pid":12345, "tid":9, "ts":1685397022803387, "dur":41599, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685397022742991, "dur":568, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685397022743560, "dur":6834, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685397022750397, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":10, "ts":1685397022750654, "dur":1054, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685397022751709, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":10, "ts":1685397022751877, "dur":337, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685397022752215, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685397022752269, "dur":1122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685397022753392, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685397022753445, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685397022753548, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685397022753611, "dur":363, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685397022753976, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685397022754048, "dur":468, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685397022754517, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685397022754595, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685397022754735, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685397022754841, "dur":743, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685397022755585, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685397022755822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685397022755839, "dur":5035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685397022760942, "dur":831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685397022761808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685397022761817, "dur":7432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685397022769365, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685397022769453, "dur":1306, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685397022770760, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685397022770827, "dur":669, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685397022771497, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685397022771562, "dur":933, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685397022772495, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685397022772550, "dur":928, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685397022773479, "dur":57529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Plugins/x86_64/lib_burst_generated.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685397022831020, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1685397022831353, "dur":2230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Plugins/x86_64/lib_burst_generated.dll" }}
-,{ "pid":12345, "tid":10, "ts":1685397022833642, "dur":11142, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685397022743022, "dur":542, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685397022743564, "dur":6838, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685397022750405, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":11, "ts":1685397022750627, "dur":1027, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685397022751655, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":11, "ts":1685397022751812, "dur":401, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685397022752214, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1685397022752267, "dur":1083, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685397022753351, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1685397022753423, "dur":259, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685397022753683, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1685397022753743, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685397022753860, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1685397022753919, "dur":590, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685397022754510, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1685397022754579, "dur":256, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685397022754836, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1685397022754908, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685397022755027, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":11, "ts":1685397022755249, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685397022755263, "dur":4808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":11, "ts":1685397022760139, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":11, "ts":1685397022760362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685397022760371, "dur":4876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":11, "ts":1685397022765432, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
-,{ "pid":12345, "tid":11, "ts":1685397022765492, "dur":1372, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685397022766867, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":11, "ts":1685397022766950, "dur":1526, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685397022768479, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":11, "ts":1685397022768664, "dur":534, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685397022769199, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/System.Runtime.dll" }}
-,{ "pid":12345, "tid":11, "ts":1685397022769271, "dur":639, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685397022769913, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":11, "ts":1685397022769994, "dur":15144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685397022785141, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":11, "ts":1685397022785219, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1685397022785228, "dur":23808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":11, "ts":1685397022809102, "dur":35689, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685397022743054, "dur":514, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685397022743568, "dur":6840, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685397022750409, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":12, "ts":1685397022750654, "dur":1286, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685397022751941, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure.exe" }}
-,{ "pid":12345, "tid":12, "ts":1685397022752036, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685397022752086, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685397022752144, "dur":936, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685397022753081, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685397022753134, "dur":406, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685397022753541, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685397022753618, "dur":293, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685397022753912, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685397022753981, "dur":547, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685397022754528, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685397022754584, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685397022754708, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685397022754831, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685397022755013, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685397022755100, "dur":486, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685397022755587, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685397022755799, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685397022755814, "dur":4829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685397022760726, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685397022760936, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685397022760945, "dur":5933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685397022766948, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685397022767013, "dur":1932, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685397022768947, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685397022769246, "dur":1798, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685397022771046, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685397022771114, "dur":710, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685397022771825, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":12, "ts":1685397022771929, "dur":7554, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685397022779485, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":12, "ts":1685397022779556, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685397022779563, "dur":4781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":12, "ts":1685397022784426, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":12, "ts":1685397022784500, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1685397022784513, "dur":60166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":12, "ts":1685397022844743, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":12, "ts":1685397022844745, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1685397022853466, "dur":2708, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1685397352530089, "dur":1452, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685397352531550, "dur":194, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1685397352531781, "dur":26, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1685397352531809, "dur":445, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1685397352532289, "dur":886, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685397352533175, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685397352611934, "dur":352, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685397352612286, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685397352612303, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685397352612305, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685397352612314, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685397352612316, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685397352612323, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685397352612325, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685397352612332, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685397352612334, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685397352612341, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685397352612343, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685397352612351, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685397352612353, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685397352612359, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685397352612361, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685397352612367, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685397352612369, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685397352612375, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685397352612377, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685397352612384, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685397352612386, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685397352612393, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685397352612395, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685397352612403, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685397352612424, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685397352612449, "dur":2719, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1685397352532451, "dur":731, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685397352533183, "dur":6864, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685397352540062, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1685397352540063, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685397352540126, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1685397352540128, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685397352540206, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1685397352540294, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685397352540376, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1685397352540483, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685397352540574, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685397352540657, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685397352540743, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685397352540838, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685397352540910, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685397352540976, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685397352541037, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685397352541102, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685397352541187, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685397352541325, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685397352541419, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685397352541720, "dur":846, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685397352542568, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685397352542639, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685397352542701, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685397352542766, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685397352542820, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1685397352542886, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685397352543035, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":1, "ts":1685397352543109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1685397352559920, "dur":1272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":1, "ts":1685397352561243, "dur":50704, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685397352532488, "dur":703, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685397352533191, "dur":6921, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685397352540115, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1685397352540220, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685397352540294, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685397352540379, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685397352540481, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685397352540584, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685397352540664, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685397352540751, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685397352540825, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685397352540905, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685397352540966, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685397352541032, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685397352541097, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685397352541168, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685397352541225, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685397352541334, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685397352541435, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685397352541626, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685397352541685, "dur":1344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1685397352543029, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685397352543090, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685397352543152, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1685397352568963, "dur":31396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1685397352600407, "dur":11527, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685397352532481, "dur":705, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685397352533186, "dur":7208, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685397352540395, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685397352540483, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685397352540568, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685397352540656, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685397352540725, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685397352540807, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685397352540865, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685397352540938, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685397352541001, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685397352541074, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685397352541128, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685397352541190, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685397352541330, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685397352541420, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685397352541498, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685397352541706, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685397352541778, "dur":741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685397352542519, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685397352542570, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685397352542685, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685397352542780, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1685397352542834, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685397352542902, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1685397352543006, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685397352550317, "dur":2881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1685397352553257, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1685397352553321, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685397352553329, "dur":3106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1685397352556531, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1685397352556760, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1685397352556835, "dur":55095, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685397352532517, "dur":679, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685397352533196, "dur":6909, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685397352540107, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1685397352540203, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685397352540271, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1685397352540354, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685397352540404, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685397352540480, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685397352540552, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685397352540622, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685397352540684, "dur":442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685397352541126, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685397352541184, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685397352541322, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685397352541414, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685397352541482, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685397352541534, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685397352541698, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685397352541773, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685397352541959, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685397352542019, "dur":315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685397352542334, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685397352542383, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685397352542439, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685397352542493, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685397352542568, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685397352542639, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685397352542701, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685397352542758, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1685397352542824, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685397352542886, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":4, "ts":1685397352542960, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685397352543887, "dur":3657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":4, "ts":1685397352547613, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/level4" }}
+,{ "pid":12345, "tid":4, "ts":1685397352547751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685397352547761, "dur":2085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/level4" }}
+,{ "pid":12345, "tid":4, "ts":1685397352549918, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1685397352549973, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685397352549981, "dur":2298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1685397352552361, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1685397352552427, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685397352552434, "dur":2462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1685397352554975, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1685397352555060, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1685397352555069, "dur":2401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1685397352557626, "dur":54317, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685397352532554, "dur":648, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685397352533202, "dur":6898, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685397352540102, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1685397352540212, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685397352540289, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685397352540366, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685397352540444, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685397352540506, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685397352540580, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685397352540669, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685397352540762, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685397352540841, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685397352540920, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685397352540999, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685397352541088, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685397352541152, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685397352541220, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685397352541348, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685397352541443, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685397352541743, "dur":232, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685397352541976, "dur":649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685397352542625, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685397352542692, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685397352542749, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685397352542842, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1685397352543148, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685397352543228, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1685397352543320, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1685397352569484, "dur":5866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1685397352575459, "dur":36480, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685397352532582, "dur":624, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685397352533206, "dur":6888, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685397352540097, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1685397352540200, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685397352540285, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1685397352540368, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685397352540445, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685397352540580, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685397352540655, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685397352540737, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685397352540808, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685397352540886, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685397352540949, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685397352541018, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685397352541086, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685397352541158, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685397352541331, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685397352541420, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685397352541492, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685397352541698, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685397352541778, "dur":1668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1685397352543446, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685397352543500, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1685397352543626, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685397352543678, "dur":727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1685397352544406, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685397352544468, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1685397352544531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1685397352544545, "dur":15687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1685397352560286, "dur":51659, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685397352532606, "dur":604, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685397352533211, "dur":6877, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685397352540091, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1685397352540202, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685397352540301, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685397352540398, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685397352540479, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685397352540573, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685397352540654, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685397352540747, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685397352540822, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685397352540902, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685397352540960, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685397352541017, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685397352541080, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685397352541134, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685397352541190, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685397352541332, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685397352541436, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685397352541645, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685397352541698, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685397352541901, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685397352541967, "dur":548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685397352542515, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685397352542579, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685397352542666, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685397352542724, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685397352542787, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685397352542843, "dur":19046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685397352561898, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1685397352562091, "dur":3492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":7, "ts":1685397352565653, "dur":46295, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685397352532633, "dur":582, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685397352533215, "dur":6868, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685397352540085, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1685397352540206, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685397352540284, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1685397352540362, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685397352540478, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685397352540575, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685397352540655, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685397352540732, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685397352540809, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685397352540889, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685397352540949, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685397352541015, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685397352541088, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685397352541157, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685397352541214, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685397352541334, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685397352541442, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685397352541644, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685397352541709, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685397352541916, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685397352541980, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685397352542162, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685397352542227, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685397352542292, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685397352542355, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685397352542416, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685397352542503, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685397352542570, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685397352542643, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685397352542707, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685397352542766, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1685397352542832, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685397352542954, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":8, "ts":1685397352543028, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685397352551047, "dur":2891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":8, "ts":1685397352554014, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1685397352554092, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1685397352554132, "dur":2942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1685397352557251, "dur":54681, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685397352532656, "dur":563, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685397352533219, "dur":6857, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685397352540080, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1685397352540194, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685397352540261, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1685397352540322, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685397352540389, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685397352540476, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685397352540584, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685397352540679, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685397352540756, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685397352540843, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685397352540925, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685397352541000, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685397352541077, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685397352541138, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685397352541194, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685397352541324, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685397352541411, "dur":731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685397352542142, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685397352542191, "dur":469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685397352542660, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685397352542730, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1685397352542793, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685397352542854, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":9, "ts":1685397352543012, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685397352543071, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":9, "ts":1685397352543128, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1685397352560696, "dur":10202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":9, "ts":1685397352570964, "dur":40987, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685397352532678, "dur":546, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685397352533224, "dur":6847, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685397352540075, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1685397352540209, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685397352540288, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1685397352540373, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685397352540471, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685397352540549, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685397352540609, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685397352540679, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685397352540770, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685397352540838, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685397352540910, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685397352540975, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685397352541038, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685397352541102, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685397352541175, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685397352541314, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685397352541386, "dur":874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685397352542260, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685397352542317, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685397352542380, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685397352542468, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685397352542550, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685397352542621, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685397352542689, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685397352542748, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1685397352542802, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685397352542855, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1685397352542931, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685397352543745, "dur":2518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1685397352546303, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/resources.assets" }}
+,{ "pid":12345, "tid":10, "ts":1685397352546343, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685397352546349, "dur":3671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/resources.assets" }}
+,{ "pid":12345, "tid":10, "ts":1685397352550080, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/level2.resS" }}
+,{ "pid":12345, "tid":10, "ts":1685397352550136, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685397352550172, "dur":3266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/level2.resS" }}
+,{ "pid":12345, "tid":10, "ts":1685397352553485, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/level0.resS" }}
+,{ "pid":12345, "tid":10, "ts":1685397352553540, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1685397352553546, "dur":3651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/level0.resS" }}
+,{ "pid":12345, "tid":10, "ts":1685397352557269, "dur":54677, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685397352532704, "dur":525, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685397352533229, "dur":6836, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685397352540068, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1685397352540146, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685397352540215, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1685397352540291, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685397352540363, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1685397352540485, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685397352540580, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685397352540665, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685397352540762, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685397352540846, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685397352540926, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685397352540998, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685397352541087, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685397352541153, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685397352541215, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685397352541336, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685397352541426, "dur":629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685397352542056, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685397352542128, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685397352542183, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685397352542235, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685397352542293, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685397352542348, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685397352542405, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685397352542481, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685397352542554, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685397352542620, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685397352542693, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685397352542761, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":11, "ts":1685397352542831, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685397352542902, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":11, "ts":1685397352542980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685397352549686, "dur":2185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":11, "ts":1685397352551931, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/level2" }}
+,{ "pid":12345, "tid":11, "ts":1685397352551998, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685397352552007, "dur":2948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/level2" }}
+,{ "pid":12345, "tid":11, "ts":1685397352555015, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1685397352555082, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1685397352555088, "dur":2341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1685397352557490, "dur":54438, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685397352532741, "dur":492, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685397352533233, "dur":6828, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685397352540063, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":12, "ts":1685397352540182, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685397352540237, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1685397352540304, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685397352540375, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure.exe" }}
+,{ "pid":12345, "tid":12, "ts":1685397352540476, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685397352540585, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685397352540677, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685397352540771, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685397352540861, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685397352540922, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685397352540992, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685397352541047, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685397352541107, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685397352541174, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685397352541245, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685397352541333, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685397352541581, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685397352541649, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685397352541830, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685397352541893, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685397352542055, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685397352542125, "dur":887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1685397352543012, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685397352543071, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1685397352543128, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1685397352561339, "dur":50514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Bence/Desktop/Dio's Bizarre Adventure/build/Dio's Bizarre Adventure_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1685397352611901, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":12, "ts":1685397352611903, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1685397352617227, "dur":2106, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
