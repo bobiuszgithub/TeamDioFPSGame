@@ -22,7 +22,7 @@ public class CharacterInfo : MonoBehaviour
     void Start()
     {
         jatekoselete.value = HP;
-        MoneyGui.text = "Kreditek: " + Money.ToString();
+        MoneyGui.text = "Credits: " + Money.ToString();
         HPtext.text = HP.ToString();
         keyS=false; keyK=false; keyZ=false;
     }

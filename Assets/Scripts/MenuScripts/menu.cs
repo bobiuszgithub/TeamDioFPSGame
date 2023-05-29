@@ -21,7 +21,7 @@ public class menu : MonoBehaviour
     }
     public void startGame()
     {
-        SceneManager.LoadScene("startGame");
+        SceneManager.LoadScene("CutScene01");
 
     }
 

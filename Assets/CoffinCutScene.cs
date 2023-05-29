@@ -22,7 +22,7 @@ public class CoffinCutScene : MonoBehaviour
 
 
     float MapTimer = .0f;
-    float ChangeMap = 2f;
+    float ChangeMap = 3f;
     
 
     void Start()
@@ -52,7 +52,7 @@ public class CoffinCutScene : MonoBehaviour
             MapTimer += 1 * Time.deltaTime;
             if (MapTimer >= ChangeMap)
             {
-
+                
                 SceneManager.LoadScene("startGame");
             }
         }
