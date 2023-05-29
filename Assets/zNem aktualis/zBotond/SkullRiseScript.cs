@@ -20,11 +20,10 @@ public class SkullRiseScript : MonoBehaviour
 
     void Update()
     {
-        transform.position = Vector3.Lerp(pos1, pos2, Mathf.Abs(Mathf.Sin(Time.time * speed)));
+        transform.position = Vector3.Lerp(pos2, pos1, Mathf.Abs(Mathf.Sin(Time.time * speed)));
         if (Vector3.Distance(transform.position,pos2) <= 0.2)
         {
             enemyScript.enabled = true;
-            Debug.Log("megy");
             Destroy(this);
         }
     }

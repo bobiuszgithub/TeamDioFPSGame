@@ -28,7 +28,7 @@ public class enemy : MonoBehaviour
     {
 
 
-        PlayerinSight = false;
+        //PlayerinSight = false;
         if (PlayerInfo != null)
         {
             info = PlayerInfo.GetComponent<CharacterInfo>();
