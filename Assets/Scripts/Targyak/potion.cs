@@ -1,13 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class potion : MonoBehaviour
 {
     public GameObject Player;
+    public GameObject PlayerPlayer;
+    private AudioSource soundeffect;
+    public AudioClip DrinkingSound;
     public Slider hp;
 
     private bool benneAll;
@@ -16,6 +16,7 @@ public class potion : MonoBehaviour
     private CharacterInfo characterInfo;
     void Start()
     {
+        soundeffect = PlayerPlayer.GetComponent<AudioSource>();
         characterInfo = Player.GetComponent<CharacterInfo>();
         benneAll = false;
     }
@@ -27,6 +28,10 @@ public class potion : MonoBehaviour
         {
             if (Input.GetKeyUp("e"))
             {
+
+                soundeffect.clip = DrinkingSound;
+                soundeffect.Play();
+
                 characterInfo.HP += 25;
 
                 if (characterInfo.HP > 100)
@@ -43,7 +48,7 @@ public class potion : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
 
-        if(other.gameObject.tag== "Player")
+        if (other.gameObject.tag == "Player")
         {
             if (characterInfo.HP < 100)
             {
@@ -57,10 +62,10 @@ public class potion : MonoBehaviour
             }
 
         }
-        
 
 
-              
+
+
     }
 
     private void OnDestroy()
@@ -71,9 +76,9 @@ public class potion : MonoBehaviour
 
 
     private void OnTriggerExit(Collider other)
-{
-    textUGUI.text = " ";  //canvas szoveg eltuntetese
-    benneAll = false;
+    {
+        textUGUI.text = " ";  //canvas szoveg eltuntetese
+        benneAll = false;
 
-}
+    }
 }

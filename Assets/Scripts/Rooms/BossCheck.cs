@@ -14,6 +14,8 @@ public class BossCheck : MonoBehaviour
 
     public GameObject WallSmash;
 
+    public GameObject BossSound;
+
 
     // Start is called before the first frame update
     void Start()
@@ -32,10 +34,13 @@ public class BossCheck : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
+            
             WallSmash.SetActive(true);
             NAVMESH.enabled = true;
             wallAnim.SetTrigger("BREAK");
+            BossSound.SetActive(true);
             Destroy(gameObject);
+
         }
     }
 }

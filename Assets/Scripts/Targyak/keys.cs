@@ -12,6 +12,8 @@ public class keys : MonoBehaviour
     public Image Silhouette;
     public Sprite Key;
 
+    public GameObject keySound;
+
     void Start()
     {
         charinfo = player.GetComponent<CharacterInfo>();
@@ -34,24 +36,34 @@ public class keys : MonoBehaviour
         {
             if (gameObject.name == "sarga_kulcs")
             {
+                DropParent();
                 Silhouette.sprite = Key;
                 charinfo.keyS = true;
                 Destroy(gameObject);
             }
             else if (gameObject.name == "kek_kulcs")
             {
+                DropParent();
                 Silhouette.sprite = Key;
                 charinfo.keyK = true;
                 Destroy(gameObject);
             }
             else if (gameObject.name == "zold_kulcs")
             {
+                DropParent();
                 Silhouette.sprite = Key;
                 charinfo.keyZ = true;
                 Destroy(gameObject);
             }
             
         }
+    }
+
+
+    private void DropParent()
+    {
+        keySound.transform.parent =null;
+        keySound.SetActive(true);
     }
 
   

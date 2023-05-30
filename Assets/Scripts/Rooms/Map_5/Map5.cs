@@ -15,7 +15,7 @@ public class Map5 : MonoBehaviour
 
     public GameObject FightLights;
 
-
+    
 
     float Timer = .0f;
     float TimeToDamage = 1.5f;
