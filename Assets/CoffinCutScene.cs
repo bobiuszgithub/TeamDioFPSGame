@@ -27,6 +27,8 @@ public class CoffinCutScene : MonoBehaviour
 
     void Start()
     {
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
         soundeffect = GetComponent<AudioSource>();
         coffinanimator = GetComponent<Animator>();
         cameraAnimator = Camera.GetComponent<Animator>();
