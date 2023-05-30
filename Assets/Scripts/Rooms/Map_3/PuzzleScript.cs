@@ -8,6 +8,8 @@ public class PuzzleScript : MonoBehaviour
     public GameObject platform;
     public TextMeshProUGUI textUGUI;
 
+
+    public GameObject audioFalling;
     void Start()
     {
         
@@ -24,6 +26,7 @@ public class PuzzleScript : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
+            audioFalling.SetActive(true);
             textUGUI.text = "";
             Destroy(gameObject);
         }

@@ -15,7 +15,7 @@ public class enemy : MonoBehaviour
     public float enemySpeed;
 
 
-    public bool PlayerinSight;
+    public bool PlayerinSight = false; 
 
     public Slider ENEMYHPUI;
 
@@ -28,7 +28,7 @@ public class enemy : MonoBehaviour
     {
 
 
-        //PlayerinSight = false;
+        
         if (PlayerInfo != null)
         {
             info = PlayerInfo.GetComponent<CharacterInfo>();

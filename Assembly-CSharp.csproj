@@ -148,6 +148,7 @@
     <Compile Include="Assets\Scripts\Weapon Scripts\Shotgun.cs" />
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\Scripts\Rooms\BossCheck.cs" />
+    <Compile Include="Assets\DogAudio.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\zNem aktualis\TextMesh Pro\Shaders\TMPro.cginc" />
