@@ -76,6 +76,7 @@
     <Compile Include="Assets\Scripts\Rooms\ENDING.cs" />
     <Compile Include="Assets\Scripts\EnemyS\EnemySighting.cs" />
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+    <Compile Include="Assets\DogAudio.cs" />
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\Scripts\MenuScripts\EndingScreen.cs" />
     <Compile Include="Assets\Scripts\Spawn\tutorialbook.cs" />
@@ -148,7 +149,6 @@
     <Compile Include="Assets\Scripts\Weapon Scripts\Shotgun.cs" />
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\Scripts\Rooms\BossCheck.cs" />
-    <Compile Include="Assets\DogAudio.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\zNem aktualis\TextMesh Pro\Shaders\TMPro.cginc" />

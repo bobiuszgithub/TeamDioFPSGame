@@ -34,7 +34,7 @@ public class rocketLauncher : MonoBehaviour
     {
         soundeffect = Player.GetComponent<AudioSource>();
 
-        //animator = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
         bullets = bulletCount;
 
         MuzzleFlash.enabled = false;
@@ -57,11 +57,11 @@ public class rocketLauncher : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Mouse0))
             {
                 MuzzleFlash.enabled = true;
-
+                animator.SetTrigger("SHOOT");
                 soundeffect.clip = ShootSound;
                 soundeffect.Play();
 
-                //animator.SetTrigger("Shoot");
+              
                 var bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, shellRotation.transform.rotation);
                 bullet.GetComponent<Rigidbody>().velocity = bulletSpawnPoint.forward * bulletspeed;
                 bullets--;
@@ -86,7 +86,7 @@ public class rocketLauncher : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.R))
                 {
                     MuzzleFlash.enabled = false;
-                    //animator.SetTrigger("Reload");
+                    animator.SetTrigger("RELOAD");
                     bullets = bulletCount;
                     textUGUI.text = $"Rocket Launcher\n{bullets}/{bulletCount.ToString()}";
                 }
