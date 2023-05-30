@@ -113,14 +113,13 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TMP_SubMeshUI
     - TMPro.TextMeshProUGUI
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -401,9 +400,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1784}
     - Class: 114
-      Script: {instanceID: 3488}
+      Script: {instanceID: 3486}
     - Class: 114
-      Script: {instanceID: 4306}
+      Script: {instanceID: 4304}
     - Class: 114
       Script: {instanceID: 5170}
     - Class: 114
@@ -470,13 +469,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1784}
     - Class: 114
-      Script: {instanceID: 2978}
+      Script: {instanceID: 2976}
     - Class: 114
-      Script: {instanceID: 3488}
+      Script: {instanceID: 3486}
     - Class: 114
-      Script: {instanceID: 3508}
+      Script: {instanceID: 3506}
     - Class: 114
-      Script: {instanceID: 4306}
+      Script: {instanceID: 4304}
     - Class: 114
       Script: {instanceID: 5458}
     - Class: 114
@@ -559,29 +558,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1784}
     - Class: 114
-      Script: {instanceID: 1794}
+      Script: {instanceID: 1792}
     - Class: 114
-      Script: {instanceID: 2038}
+      Script: {instanceID: 2036}
     - Class: 114
-      Script: {instanceID: 2774}
+      Script: {instanceID: 2772}
     - Class: 114
-      Script: {instanceID: 2864}
+      Script: {instanceID: 2862}
     - Class: 114
-      Script: {instanceID: 2978}
+      Script: {instanceID: 2976}
     - Class: 114
-      Script: {instanceID: 3004}
+      Script: {instanceID: 3002}
     - Class: 114
-      Script: {instanceID: 3150}
+      Script: {instanceID: 3148}
     - Class: 114
-      Script: {instanceID: 3488}
+      Script: {instanceID: 3486}
     - Class: 114
-      Script: {instanceID: 4306}
+      Script: {instanceID: 4304}
     - Class: 114
-      Script: {instanceID: 4540}
+      Script: {instanceID: 4538}
     - Class: 114
-      Script: {instanceID: 4574}
+      Script: {instanceID: 4572}
     - Class: 114
-      Script: {instanceID: 4672}
+      Script: {instanceID: 4670}
     - Class: 114
       Script: {instanceID: 4918}
     - Class: 114
@@ -596,6 +595,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5772}
     - Class: 114
       Script: {instanceID: 5936}
+    - Class: 114
+      Script: {instanceID: 6200}
     - Class: 114
       Script: {instanceID: 6204}
     - Class: 114
@@ -701,6 +702,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
     - Class: 90
       Script: {instanceID: 0}
     - Class: 91
@@ -718,35 +721,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1784}
     - Class: 114
-      Script: {instanceID: 1836}
+      Script: {instanceID: 1834}
     - Class: 114
-      Script: {instanceID: 2200}
+      Script: {instanceID: 2198}
     - Class: 114
-      Script: {instanceID: 2246}
+      Script: {instanceID: 2244}
     - Class: 114
-      Script: {instanceID: 2346}
+      Script: {instanceID: 2344}
     - Class: 114
-      Script: {instanceID: 2914}
+      Script: {instanceID: 2912}
     - Class: 114
-      Script: {instanceID: 2978}
+      Script: {instanceID: 2976}
     - Class: 114
-      Script: {instanceID: 3104}
+      Script: {instanceID: 3102}
     - Class: 114
-      Script: {instanceID: 3488}
+      Script: {instanceID: 3486}
     - Class: 114
-      Script: {instanceID: 3508}
+      Script: {instanceID: 3506}
     - Class: 114
-      Script: {instanceID: 3634}
+      Script: {instanceID: 3632}
     - Class: 114
-      Script: {instanceID: 4306}
+      Script: {instanceID: 4304}
     - Class: 114
-      Script: {instanceID: 4344}
+      Script: {instanceID: 4342}
     - Class: 114
-      Script: {instanceID: 4530}
+      Script: {instanceID: 4528}
     - Class: 114
-      Script: {instanceID: 4716}
+      Script: {instanceID: 4714}
     - Class: 114
-      Script: {instanceID: 4748}
+      Script: {instanceID: 4746}
+    - Class: 114
+      Script: {instanceID: 4888}
     - Class: 114
       Script: {instanceID: 5026}
     - Class: 114
@@ -856,9 +861,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12140}
     - Class: 114
-      Script: {instanceID: 39540}
-    - Class: 114
-      Script: {instanceID: 856582}
+      Script: {instanceID: 37778}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1460,6 +1463,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 27b3b264e1e65b024b3a2e39f4d7f425
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DogAudio
   - hash:
       serializedVersion: 2
       Hash: 40cfbb49ea9f9ab8b89fa7e41429ee2b
@@ -2786,12 +2795,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 27b3b264e1e65b024b3a2e39f4d7f425
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DogAudio
   platform: 19
   scenePathNames:
   - Assets/Scenes/Menu.unity

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Options : MonoBehaviour
 {
@@ -16,9 +17,12 @@ public class Options : MonoBehaviour
     private float CurrentRefreshRate;
     private int currentResolutionIndex = 0;
 
+    
+    
+
     void Start()
     {
-
+        
         resolutions = Screen.resolutions;
         FilteredResolutionList = new List<Resolution>();
 
@@ -57,7 +61,7 @@ public class Options : MonoBehaviour
         resolutionDropDown.value = currentResolutionIndex;
         resolutionDropDown.RefreshShownValue();
 
-
+       
     }
 
     public void SetResolution(int resolutionIndex)
@@ -66,6 +70,13 @@ public class Options : MonoBehaviour
         Screen.SetResolution(resolution.width, resolution.height, true);
     }
 
+
+    public void Update()
+    {
+       
+    }
+
+ 
 
 
 }
