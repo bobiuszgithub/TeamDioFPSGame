@@ -77,7 +77,8 @@ public class SMG : MonoBehaviour
 
         if (bullets <= 0)
         {
-            soundeffect.Stop();
+            soundeffect.clip = null;
+            
             shooting = false;
             MuzzleFlash.enabled = false;
         }
@@ -103,6 +104,8 @@ public class SMG : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.R))
         {
+            soundeffect.clip = ReloadSound;
+            soundeffect.Play();
             Reload = true;
             animator.SetTrigger("RELOAD");
         }

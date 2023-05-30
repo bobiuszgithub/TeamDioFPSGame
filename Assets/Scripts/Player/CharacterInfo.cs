@@ -10,6 +10,7 @@ public class CharacterInfo : MonoBehaviour
 {
     public int Money;
     public float HP = 100;
+    public float CurrentHP;
 
     public TextMeshProUGUI MoneyGui;
     public TextMeshProUGUI HPtext;
@@ -19,12 +20,17 @@ public class CharacterInfo : MonoBehaviour
     public bool keyK;
     public bool keyZ;
 
+    private AudioSource audioS;
+
     void Start()
     {
         jatekoselete.value = HP;
         MoneyGui.text = "Credits: " + Money.ToString();
         HPtext.text = HP.ToString();
         keyS=false; keyK=false; keyZ=false;
+        CurrentHP = HP;
+
+        audioS = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -32,6 +38,13 @@ public class CharacterInfo : MonoBehaviour
     {
         jatekoselete.value = HP;
         HPtext.text = HP.ToString();
+
+
+        if (HP < CurrentHP)
+        {
+            audioS.Play();
+            CurrentHP = HP;
+        }
 
     }
 

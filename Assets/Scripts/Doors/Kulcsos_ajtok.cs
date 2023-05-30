@@ -12,6 +12,9 @@ public class Kulcsos_ajtok : MonoBehaviour
 
     public GameObject lakat;
 
+
+    public AudioSource audioDoor;
+
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -27,10 +30,12 @@ public class Kulcsos_ajtok : MonoBehaviour
     {
         if (lakat==null &&!animationplayed)
         {
+            audioDoor.Play();
             animator.SetTrigger("OpenDoor");
             animationplayed = true;
             if (doorLight != null)
             {
+                
                 doorLight.enabled = true;
             }
         }

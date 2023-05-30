@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class locks : MonoBehaviour
@@ -10,6 +11,8 @@ public class locks : MonoBehaviour
     public GameObject item;
     
     private bool benneAll;
+
+    public GameObject Sound;
 
     public TextMeshProUGUI textUGUI;
     void Start()
@@ -53,6 +56,7 @@ public class locks : MonoBehaviour
         {
             if (charinfo.keyZ)
             {
+                SoundParentDrop();
                item.SetActive(true);
                 Destroy(gameObject);
 
@@ -67,7 +71,8 @@ public class locks : MonoBehaviour
         if (gameObject.name == "K_lakat" && benneAll)
         {
             if (charinfo.keyK)
-            {                
+            {
+                SoundParentDrop();
                 Destroy(gameObject);
             }
             benneAll = false;
@@ -77,6 +82,7 @@ public class locks : MonoBehaviour
         {
             if (charinfo.keyK)
             {
+                SoundParentDrop();
                 item.SetActive(true);
                 Destroy(gameObject);                
             }
@@ -90,6 +96,7 @@ public class locks : MonoBehaviour
         {
             if (charinfo.keyS)
             {
+                SoundParentDrop();
                 Destroy(gameObject);
 
             }
@@ -163,5 +170,13 @@ public class locks : MonoBehaviour
     private void OnDestroy()
     {
         textUGUI.text = " ";
+    }
+
+
+
+    private void SoundParentDrop()
+    {
+        Sound.transform.parent = null;
+        Sound.SetActive(true);
     }
 }

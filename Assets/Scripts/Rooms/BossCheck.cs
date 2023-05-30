@@ -12,6 +12,8 @@ public class BossCheck : MonoBehaviour
     public GameObject BOSS;
     private NavMeshAgent NAVMESH;
 
+    public GameObject WallSmash;
+
 
     // Start is called before the first frame update
     void Start()
@@ -30,6 +32,7 @@ public class BossCheck : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
+            WallSmash.SetActive(true);
             NAVMESH.enabled = true;
             wallAnim.SetTrigger("BREAK");
             Destroy(gameObject);

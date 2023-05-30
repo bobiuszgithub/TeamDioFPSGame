@@ -10,8 +10,13 @@ public class money : MonoBehaviour
     private CharacterInfo charinfo;
 
 
+    public GameObject audioS;
+
+
     void Start()
     {
+
+        
         charinfo = player.GetComponent<CharacterInfo>();
         
         
@@ -22,6 +27,9 @@ public class money : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
+            audioS.SetActive(true);
+            audioS.transform.parent = null;
+           
           
             charinfo.Money = charinfo.Money + 10;
             MoneyGui.text = "Credits: " + charinfo.Money.ToString();

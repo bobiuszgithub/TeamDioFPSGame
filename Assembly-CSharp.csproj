@@ -101,6 +101,7 @@
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\Scripts\Weapon Scripts\blockChangeOneAnimation.cs" />
+    <Compile Include="Assets\water.cs" />
     <Compile Include="Assets\zNem aktualis\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\zNem aktualis\zBotond\Boss\WallHandler.cs" />
     <Compile Include="Assets\Scripts\Player\CharacterInfo.cs" />

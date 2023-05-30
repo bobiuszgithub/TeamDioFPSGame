@@ -10,6 +10,8 @@ public class PoisonScript : MonoBehaviour
 
     bool PoisonTouched = false;
 
+    public AudioSource PoisonSplash;
+
     void Start()
     {
         characterInfo = player.GetComponent<CharacterInfo>();
@@ -35,7 +37,7 @@ public class PoisonScript : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-
+            PoisonSplash.Play();
             var hp = characterInfo.HP;
             characterInfo.HP = hp;
             PoisonTouched = true;

@@ -21,10 +21,13 @@ public class Movement : MonoBehaviour
     [HideInInspector]
     public bool canMove = true;
 
+
+    public AudioSource jumpSound;
+
     void Start()
     {
         characterController = GetComponent<CharacterController>();
-
+        
         // Lock cursor
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
@@ -44,6 +47,7 @@ public class Movement : MonoBehaviour
 
         if (Input.GetButton("Jump") && canMove && characterController.isGrounded)
         {
+            jumpSound.Play();
             moveDirection.y = jumpSpeed;
         }
         else
